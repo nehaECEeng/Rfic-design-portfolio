@@ -134,6 +134,11 @@ let kfac = (1 - mag(s11)*mag(s11) - mag(s22)*mag(s22) + dmag*dmag)/(2*mag(s12*s2
 let mu = (1 - mag(s11)*mag(s11))/(mag(s22 - dlt*conj(s11)) + mag(s12*s21))
 let mup = (1 - mag(s22)*mag(s22))/(mag(s11 - dlt*conj(s22)) + mag(s12*s21))
 
+* ---- Export S-parameters, impedances and stability ----
+set wr_singlescale
+set wr_vecnames
+wrdata results/data/q8_m4_sparams.dat s11db s21db s12db s22db rin xin rout xout kfac dmag mu mup
+
 plot s11db s22db vs frequency title 'S11 and S22 (dB)'
 plot s21db vs frequency title 'S21 (dB)'
 
@@ -168,6 +173,7 @@ alter vout acmag = 0
 noise v(out) vin lin 41 1e9 5e9
 setplot noise2
 let nf = 10*log10(inoise_spectrum*inoise_spectrum/(4*1.380649e-23*300.15*50))
+wrdata results/data/q8_m4_nf.dat nf
 plot nf vs frequency title 'Noise figure (dB)'
 let f24 = frequency[14]
 print f24 nf[14]

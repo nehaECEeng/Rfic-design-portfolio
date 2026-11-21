@@ -161,6 +161,9 @@ meas ac f3_lo when s21n=-3 cross=1
 meas ac f3_hi when s21n=-3 cross=2
 
 * ---- P1dB, IIP3 and OIP3 estimates: input power sweep at 2.4 GHz ----
+set wr_singlescale
+set wr_vecnames
+wrdata results/data/lna_corner_ff_85/lna_corner_ff_85_sparams.dat s11db s21db s12db s22db rin xin rout xout kfac dmag mu mup
 set g0 = $&s21_2p4g
 
 * ---- noise figure at 2.4 GHz (Rs = 50 ohm at the input) ----
@@ -172,6 +175,7 @@ let nf = 10*log10(inoise_spectrum*inoise_spectrum/(4*1.380649e-23*300.15*50))
 plot nf vs frequency title 'Noise figure (dB)'
 let f24 = frequency[14]
 print f24 nf[14]
+wrdata results/data/lna_corner_ff_85/lna_corner_ff_85_nf.dat nf
 .endc
 "}
 T {Corner run: ff, 85 C. Final design (Q = 8, mult=4). S-parameters, K, mu, NF and supply current at 2.4 GHz. Gate bias is a fixed source, so the match detunes in the corners.} -520 220 0 0 0.4 0.4 {}

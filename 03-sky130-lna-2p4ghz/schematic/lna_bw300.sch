@@ -154,6 +154,12 @@ let s21n = s21db - vecmax(s21db)
 meas ac f3_lo when s21n=-3 cross=1
 meas ac f3_hi when s21n=-3 cross=2
 
+* ---- Export S-parameters, impedances and stability ----
+set wr_singlescale
+set wr_vecnames
+wrdata results/data/lna_bw300/lna_bw300_sparams.dat s11db s21db s12db s22db rin xin rout xout kfac dmag mu mup
+
+
 * ---- P1dB, IIP3 and OIP3 estimates: input power sweep at 2.4 GHz ----
 set g0 = $&s21_2p4g
 
@@ -163,6 +169,10 @@ alter vout acmag = 0
 noise v(out) vin lin 41 1e9 5e9
 setplot noise2
 let nf = 10*log10(inoise_spectrum*inoise_spectrum/(4*1.380649e-23*300.15*50))
+set wr_singlescale
+set wr_vecnames
+wrdata results/data/lna_bw300/lna_bw300_nf.dat nf
+
 plot nf vs frequency title 'Noise figure (dB)'
 let f24 = frequency[14]
 print f24 nf[14]

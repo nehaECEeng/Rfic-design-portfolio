@@ -1,0 +1,595 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: ** sch_path: /mnt/c/users/nehan/downloads/rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/lna_bw300.sch
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+v(nin) = 0.000000e+00
+v(out) -i(vdd) = 1.923924e-03
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 3001
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 3001
+
+Warning: command 'plot' is not available during batch simulation, ignored!
+    You may use Gnuplot instead.
+
+
+Warning: command 'plot' is not available during batch simulation, ignored!
+    You may use Gnuplot instead.
+
+s11_2p4g            =  -5.336064e+01
+s21_2p4g            =  1.334776e+01
+s22_2p4g            =  -6.523786e+01
+rin_2p4g            =  5.003151e+01
+xin_2p4g            =  -2.125123e-01
+rout_2p4g           =  4.995209e+01
+xout_2p4g           =  -2.636984e-02
+s12_2p4g            =  -5.785938e+01
+k_2p4g              =  8.405508e+01
+mu_2p4g             =  1.539158e+02
+mup_2p4g            =  1.235085e+02
+f_s11best           =  2.401000e+09 with=  -6.955368e+01
+f11_lo              =  2.246600e+09
+f11_hi              =  2.567029e+09
+f22_lo              =  2.178937e+09
+f22_hi              =  2.710823e+09
+f3_lo               =  1.995464e+09
+f3_hi               =  2.706751e+09
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 41
+
+No. of Data Rows : 1
+
+Warning: command 'plot' is not available during batch simulation, ignored!
+    You may use Gnuplot instead.
+
+f24 = 2.400000e+09
+nf[14] = 1.155984e+00
+Reset re-loads circuit ** sch_path: /mnt/c/users/nehan/downloads/rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/lna_bw300.sch
+
+Circuit: ** sch_path: /mnt/c/users/nehan/downloads/rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/lna_bw300.sch
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+net6                                  0.701142
+net4                                         1
+net5                               1.11022e-16
+net8                                       1.8
+net7                                       1.8
+net1                                         0
+nin                                          0
+net2                                         1
+net3                                         1
+out                                          0
+net9                                         0
+ld#branch                           0.00192392
+ls#branch                           0.00192392
+lg#branch                                    0
+vdd#branch                         -0.00192392
+vout#branch                                  0
+vbb#branch                                   0
+vin#branch                                   0
+
+
+No. of Data Rows : 2008
+mcf                 =  4.65823e-12 from=  1.40000e-08 to=  1.69167e-08
+msf                 =  -4.90940e-12 from=  1.40000e-08 to=  1.69167e-08
+idd                 =  -1.924047e-03 from=  1.400000e-08 to=  1.692280e-08
+Pin = -50 dBm Pout = -36.6684 dBm Gain = 13.3316 dB Change = -0.0161565 dB IIP3est = -22.6913 dBm oip3est = -9.3435 dbm pdc = 0.00346328 w eff = 6.21836E-05
+Reset re-loads circuit ** sch_path: /mnt/c/users/nehan/downloads/rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/lna_bw300.sch
+
+Circuit: ** sch_path: /mnt/c/users/nehan/downloads/rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/lna_bw300.sch
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+net6                                  0.701142
+net4                                         1
+net5                               1.11022e-16
+net8                                       1.8
+net7                                       1.8
+net1                                         0
+nin                                          0
+net2                                         1
+net3                                         1
+out                                          0
+net9                                         0
+ld#branch                           0.00192392
+ls#branch                           0.00192392
+lg#branch                                    0
+vdd#branch                         -0.00192392
+vout#branch                                  0
+vbb#branch                                   0
+vin#branch                                   0
+
+
+No. of Data Rows : 2008
+mcf                 =  4.64822e-11 from=  1.40000e-08 to=  1.69167e-08
+msf                 =  -4.90409e-11 from=  1.40000e-08 to=  1.69167e-08
+idd                 =  -1.945385e-03 from=  1.400000e-08 to=  1.692280e-08
+Pin = -30 dBm Pout = -16.6822 dBm Gain = 13.3178 dB Change = -0.0299528 dB IIP3est = -5.36874 dBm oip3est = 7.97906 dbm pdc = 0.00350169 w eff = 0.00613065
+Reset re-loads circuit ** sch_path: /mnt/c/users/nehan/downloads/rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/lna_bw300.sch
+
+Circuit: ** sch_path: /mnt/c/users/nehan/downloads/rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/lna_bw300.sch
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+net6                                  0.701142
+net4                                         1
+net5                               1.11022e-16
+net8                                       1.8
+net7                                       1.8
+net1                                         0
+nin                                          0
+net2                                         1
+net3                                         1
+out                                          0
+net9                                         0
+ld#branch                           0.00192392
+ls#branch                           0.00192392
+lg#branch                                    0
+vdd#branch                         -0.00192392
+vout#branch                                  0
+vbb#branch                                   0
+vin#branch                                   0
+
+
+No. of Data Rows : 2008
+mcf                 =  1.43844e-10 from=  1.40000e-08 to=  1.69167e-08
+msf                 =  -1.53558e-10 from=  1.40000e-08 to=  1.69167e-08
+idd                 =  -2.145513e-03 from=  1.400000e-08 to=  1.692280e-08
+Pin = -20 dBm Pout = -6.81592 dBm Gain = 13.1841 dB Change = -0.163723 dB IIP3est = -2.71208 dBm oip3est = 10.6357 dbm pdc = 0.00386192 w eff = 0.0539019
+Reset re-loads circuit ** sch_path: /mnt/c/users/nehan/downloads/rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/lna_bw300.sch
+
+Circuit: ** sch_path: /mnt/c/users/nehan/downloads/rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/lna_bw300.sch
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+net6                                  0.701142
+net4                                         1
+net5                               1.11022e-16
+net8                                       1.8
+net7                                       1.8
+net1                                         0
+nin                                          0
+net2                                         1
+net3                                         1
+out                                          0
+net9                                         0
+ld#branch                           0.00192392
+ls#branch                           0.00192392
+lg#branch                                    0
+vdd#branch                         -0.00192392
+vout#branch                                  0
+vbb#branch                                   0
+vin#branch                                   0
+
+
+No. of Data Rows : 2008
+mcf                 =  1.78123e-10 from=  1.40000e-08 to=  1.69167e-08
+msf                 =  -1.92113e-10 from=  1.40000e-08 to=  1.69167e-08
+idd                 =  -2.275587e-03 from=  1.400000e-08 to=  1.692280e-08
+Pin = -18 dBm Pout = -4.91167 dBm Gain = 13.0883 dB Change = -0.25947 dB IIP3est = -2.68802 dBm oip3est = 10.6598 dbm pdc = 0.00409606 w eff = 0.0787893
+Reset re-loads circuit ** sch_path: /mnt/c/users/nehan/downloads/rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/lna_bw300.sch
+
+Circuit: ** sch_path: /mnt/c/users/nehan/downloads/rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/lna_bw300.sch
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+net6                                  0.701142
+net4                                         1
+net5                               1.11022e-16
+net8                                       1.8
+net7                                       1.8
+net1                                         0
+nin                                          0
+net2                                         1
+net3                                         1
+out                                          0
+net9                                         0
+ld#branch                           0.00192392
+ls#branch                           0.00192392
+lg#branch                                    0
+vdd#branch                         -0.00192392
+vout#branch                                  0
+vbb#branch                                   0
+vin#branch                                   0
+
+
+No. of Data Rows : 2008
+mcf                 =  2.17376e-10 from=  1.40000e-08 to=  1.69167e-08
+msf                 =  -2.39656e-10 from=  1.40000e-08 to=  1.69167e-08
+idd                 =  -2.478185e-03 from=  1.400000e-08 to=  1.692223e-08
+Pin = -16 dBm Pout = -3.07818 dBm Gain = 12.9218 dB Change = -0.425983 dB IIP3est = -2.79972 dBm oip3est = 10.5481 dbm pdc = 0.00446073 w eff = 0.110351
+Reset re-loads circuit ** sch_path: /mnt/c/users/nehan/downloads/rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/lna_bw300.sch
+
+Circuit: ** sch_path: /mnt/c/users/nehan/downloads/rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/lna_bw300.sch
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+net6                                  0.701142
+net4                                         1
+net5                               1.11022e-16
+net8                                       1.8
+net7                                       1.8
+net1                                         0
+nin                                          0
+net2                                         1
+net3                                         1
+out                                          0
+net9                                         0
+ld#branch                           0.00192392
+ls#branch                           0.00192392
+lg#branch                                    0
+vdd#branch                         -0.00192392
+vout#branch                                  0
+vbb#branch                                   0
+vin#branch                                   0
+
+
+No. of Data Rows : 2008
+mcf                 =  2.37913e-10 from=  1.40000e-08 to=  1.69167e-08
+msf                 =  -2.67415e-10 from=  1.40000e-08 to=  1.69167e-08
+idd                 =  -2.616121e-03 from=  1.400000e-08 to=  1.692280e-08
+Pin = -15 dBm Pout = -2.20119 dBm Gain = 12.7988 dB Change = -0.548991 dB IIP3est = -2.87098 dBm oip3est = 10.4768 dbm pdc = 0.00470902 w eff = 0.127924
+Reset re-loads circuit ** sch_path: /mnt/c/users/nehan/downloads/rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/lna_bw300.sch
+
+Circuit: ** sch_path: /mnt/c/users/nehan/downloads/rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/lna_bw300.sch
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+net6                                  0.701142
+net4                                         1
+net5                               1.11022e-16
+net8                                       1.8
+net7                                       1.8
+net1                                         0
+nin                                          0
+net2                                         1
+net3                                         1
+out                                          0
+net9                                         0
+ld#branch                           0.00192392
+ls#branch                           0.00192392
+lg#branch                                    0
+vdd#branch                         -0.00192392
+vout#branch                                  0
+vbb#branch                                   0
+vin#branch                                   0
+
+
+No. of Data Rows : 2008
+mcf                 =  2.57811e-10 from=  1.40000e-08 to=  1.69167e-08
+msf                 =  -2.98056e-10 from=  1.40000e-08 to=  1.69167e-08
+idd                 =  -2.782170e-03 from=  1.400000e-08 to=  1.692280e-08
+Pin = -14 dBm Pout = -1.36532 dBm Gain = 12.6347 dB Change = -0.713117 dB IIP3est = -2.96641 dBm oip3est = 10.3814 dbm pdc = 0.00500791 w eff = 0.145818
+Reset re-loads circuit ** sch_path: /mnt/c/users/nehan/downloads/rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/lna_bw300.sch
+
+Circuit: ** sch_path: /mnt/c/users/nehan/downloads/rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/lna_bw300.sch
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+net6                                  0.701142
+net4                                         1
+net5                               1.11022e-16
+net8                                       1.8
+net7                                       1.8
+net1                                         0
+nin                                          0
+net2                                         1
+net3                                         1
+out                                          0
+net9                                         0
+ld#branch                           0.00192392
+ls#branch                           0.00192392
+lg#branch                                    0
+vdd#branch                         -0.00192392
+vout#branch                                  0
+vbb#branch                                   0
+vin#branch                                   0
+
+
+No. of Data Rows : 2008
+mcf                 =  2.75094e-10 from=  1.40000e-08 to=  1.69167e-08
+msf                 =  -3.31679e-10 from=  1.40000e-08 to=  1.69167e-08
+idd                 =  -2.976120e-03 from=  1.400000e-08 to=  1.692280e-08
+Pin = -13 dBm Pout = -0.589303 dBm Gain = 12.4107 dB Change = -0.937103 dB IIP3est = -3.09756 dBm oip3est = 10.2502 dbm pdc = 0.00535702 w eff = 0.162985
+Reset re-loads circuit ** sch_path: /mnt/c/users/nehan/downloads/rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/lna_bw300.sch
+
+Circuit: ** sch_path: /mnt/c/users/nehan/downloads/rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/lna_bw300.sch
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+net6                                  0.701142
+net4                                         1
+net5                               1.11022e-16
+net8                                       1.8
+net7                                       1.8
+net1                                         0
+nin                                          0
+net2                                         1
+net3                                         1
+out                                          0
+net9                                         0
+ld#branch                           0.00192392
+ls#branch                           0.00192392
+lg#branch                                    0
+vdd#branch                         -0.00192392
+vout#branch                                  0
+vbb#branch                                   0
+vin#branch                                   0
+
+
+No. of Data Rows : 2008
+mcf                 =  2.86032e-10 from=  1.40000e-08 to=  1.69167e-08
+msf                 =  -3.69017e-10 from=  1.40000e-08 to=  1.69167e-08
+idd                 =  -3.195539e-03 from=  1.400000e-08 to=  1.692280e-08
+Pin = -12 dBm Pout = 0.107175 dBm Gain = 12.1072 dB Change = -1.24062 dB IIP3est = -3.2418 dBm oip3est = 10.106 dbm pdc = 0.00575197 w eff = 0.178197
+Reset re-loads circuit ** sch_path: /mnt/c/users/nehan/downloads/rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/lna_bw300.sch
+
+Circuit: ** sch_path: /mnt/c/users/nehan/downloads/rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/lna_bw300.sch
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+net6                                  0.701142
+net4                                         1
+net5                               1.11022e-16
+net8                                       1.8
+net7                                       1.8
+net1                                         0
+nin                                          0
+net2                                         1
+net3                                         1
+out                                          0
+net9                                         0
+ld#branch                           0.00192392
+ls#branch                           0.00192392
+lg#branch                                    0
+vdd#branch                         -0.00192392
+vout#branch                                  0
+vbb#branch                                   0
+vin#branch                                   0
+
+
+No. of Data Rows : 2008
+mcf                 =  2.84829e-10 from=  1.40000e-08 to=  1.69167e-08
+msf                 =  -4.11459e-10 from=  1.40000e-08 to=  1.69167e-08
+idd                 =  -3.435899e-03 from=  1.400000e-08 to=  1.692280e-08
+Pin = -11 dBm Pout = 0.709652 dBm Gain = 11.7097 dB Change = -1.63815 dB IIP3est = -3.35229 dBm oip3est = 9.99551 dbm pdc = 0.00618462 w eff = 0.190394
+Reset re-loads circuit ** sch_path: /mnt/c/users/nehan/downloads/rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/lna_bw300.sch
+
+Circuit: ** sch_path: /mnt/c/users/nehan/downloads/rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/lna_bw300.sch
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+net6                                  0.701142
+net4                                         1
+net5                               1.11022e-16
+net8                                       1.8
+net7                                       1.8
+net1                                         0
+nin                                          0
+net2                                         1
+net3                                         1
+out                                          0
+net9                                         0
+ld#branch                           0.00192392
+ls#branch                           0.00192392
+lg#branch                                    0
+vdd#branch                         -0.00192392
+vout#branch                                  0
+vbb#branch                                   0
+vin#branch                                   0
+
+
+No. of Data Rows : 2008
+mcf                 =  2.69547e-10 from=  1.40000e-08 to=  1.69167e-08
+msf                 =  -4.56643e-10 from=  1.40000e-08 to=  1.69167e-08
+idd                 =  -3.685740e-03 from=  1.400000e-08 to=  1.692280e-08
+Pin = -10 dBm Pout = 1.21269 dBm Gain = 11.2127 dB Change = -2.13511 dB IIP3est = -3.38321 dBm oip3est = 9.96459 dbm pdc = 0.00663433 w eff = 0.199284
+Reset re-loads circuit ** sch_path: /mnt/c/users/nehan/downloads/rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/lna_bw300.sch
+
+Circuit: ** sch_path: /mnt/c/users/nehan/downloads/rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/lna_bw300.sch
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+net6                                  0.701142
+net4                                         1
+net5                               1.11022e-16
+net8                                       1.8
+net7                                       1.8
+net1                                         0
+nin                                          0
+net2                                         1
+net3                                         1
+out                                          0
+net9                                         0
+ld#branch                           0.00192392
+ls#branch                           0.00192392
+lg#branch                                    0
+vdd#branch                         -0.00192392
+vout#branch                                  0
+vbb#branch                                   0
+vin#branch                                   0
+
+
+No. of Data Rows : 2080
+mcf                 =  2.46658e-10 from=  1.40000e-08 to=  1.69167e-08
+msf                 =  -4.98833e-10 from=  1.40000e-08 to=  1.69167e-08
+idd                 =  -3.918570e-03 from=  1.400000e-08 to=  1.691860e-08
+Pin = -9 dBm Pout = 1.63192 dBm Gain = 10.6319 dB Change = -2.71588 dB IIP3est = -3.28967 dBm oip3est = 10.0581 dbm pdc = 0.00705343 w eff = 0.206439
+Reset re-loads circuit ** sch_path: /mnt/c/users/nehan/downloads/rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/lna_bw300.sch
+
+Circuit: ** sch_path: /mnt/c/users/nehan/downloads/rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/lna_bw300.sch
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+net6                                  0.701142
+net4                                         1
+net5                               1.11022e-16
+net8                                       1.8
+net7                                       1.8
+net1                                         0
+nin                                          0
+net2                                         1
+net3                                         1
+out                                          0
+net9                                         0
+ld#branch                           0.00192392
+ls#branch                           0.00192392
+lg#branch                                    0
+vdd#branch                         -0.00192392
+vout#branch                                  0
+vbb#branch                                   0
+vin#branch                                   0
+
+
+No. of Data Rows : 2207
+mcf                 =  2.25262e-10 from=  1.40000e-08 to=  1.69167e-08
+msf                 =  -5.33380e-10 from=  1.40000e-08 to=  1.69167e-08
+idd                 =  -4.163504e-03 from=  1.400000e-08 to=  1.691776e-08
+Pin = -8 dBm Pout = 1.97639 dBm Gain = 9.97639 dB Change = -3.37141 dB IIP3est = -3.07435 dBm oip3est = 10.2734 dbm pdc = 0.00749431 w eff = 0.210333
+Reset re-loads circuit ** sch_path: /mnt/c/users/nehan/downloads/rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/lna_bw300.sch
+
+Circuit: ** sch_path: /mnt/c/users/nehan/downloads/rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/lna_bw300.sch
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+net6                                  0.701142
+net4                                         1
+net5                               1.11022e-16
+net8                                       1.8
+net7                                       1.8
+net1                                         0
+nin                                          0
+net2                                         1
+net3                                         1
+out                                          0
+net9                                         0
+ld#branch                           0.00192392
+ls#branch                           0.00192392
+lg#branch                                    0
+vdd#branch                         -0.00192392
+vout#branch                                  0
+vbb#branch                                   0
+vin#branch                                   0
+
+
+No. of Data Rows : 2258
+mcf                 =  1.98055e-10 from=  1.40000e-08 to=  1.69167e-08
+msf                 =  -5.86967e-10 from=  1.40000e-08 to=  1.69167e-08
+idd                 =  -4.604292e-03 from=  1.400000e-08 to=  1.692029e-08
+Pin = -6 dBm Pout = 2.56341 dBm Gain = 8.56341 dB Change = -4.78439 dB IIP3est = -2.26879 dBm oip3est = 11.079 dbm pdc = 0.00828773 w eff = 0.217724
+Note: Simulation executed from .control section

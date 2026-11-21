@@ -1,0 +1,63 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: ** sch_path: /mnt/c/users/nehan/downloads/rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/corner-schematics/lna_corner_ff_85.sch
+
+Doing analysis at TEMP = 85.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+v(nin) = 0.000000e+00
+v(out) -i(vdd) = 2.327329e-03
+Doing analysis at TEMP = 85.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 3001
+Doing analysis at TEMP = 85.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 3001
+
+Warning: command 'plot' is not available during batch simulation, ignored!
+    You may use Gnuplot instead.
+
+
+Warning: command 'plot' is not available during batch simulation, ignored!
+    You may use Gnuplot instead.
+
+s11_2p4g            =  -2.611938e+01
+s21_2p4g            =  1.122714e+01
+s22_2p4g            =  -3.923141e+01
+rin_2p4g            =  4.563313e+01
+xin_2p4g            =  1.813427e+00
+rout_2p4g           =  4.943987e+01
+xout_2p4g           =  -9.309254e-01
+s12_2p4g            =  -5.562000e+01
+k_2p4g              =  8.270224e+01
+mu_2p4g             =  5.992277e+01
+mup_2p4g            =  1.804940e+01
+f_s11best           =  2.389000e+09 with=  -2.679155e+01
+f11_lo              =  2.198200e+09
+f11_hi              =  2.596515e+09
+f22_lo              =  2.186388e+09
+f22_hi              =  2.685106e+09
+f3_lo               =  1.973958e+09
+f3_hi               =  2.780501e+09
+Doing analysis at TEMP = 85.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 41
+
+No. of Data Rows : 1
+
+Warning: command 'plot' is not available during batch simulation, ignored!
+    You may use Gnuplot instead.
+
+f24 = 2.400000e+09
+nf[14] = 4.388930e+00
+Note: Simulation executed from .control section

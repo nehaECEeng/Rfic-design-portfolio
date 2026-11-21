@@ -1,0 +1,117 @@
+** sch_path: /mnt/c/Users/nehan/Downloads/Rfic-design-portfolio-upload/03-sky130-lna-2p4ghz/schematic/corner-schematics/lna_corner_ss_85.sch
+**.subckt lna_corner_ss_85
+XM1 net6 net4 net5 GND sky130_fd_pr__nfet_01v8 L=0.5 W=25 nf=10 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=4 m=4
+XM2 net8 net7 net6 GND sky130_fd_pr__nfet_01v8 L=0.5 W=25 nf=10 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=4 m=4
+Vin net1 GND dc 0 ac 1 sin(0 'vamp' 2.4e9)
+Rs nin net1 50 m=1
+C1 net2 nin 20p m=1
+Lg net10 net2 12.60n m=1
+Rlg net4 net10 23.75 m=1
+Rb net2 net3 10k m=1
+Vbb net3 GND 1.0
+Cex net4 net5 0.01f m=1
+Ls net5 net11 0.535n m=1
+Rls net11 GND 1.01 m=1
+Ld net12 net8 9.62n m=1
+Rld net7 net12 18.1 m=1
+Rd net7 net8 902 m=1
+C2 out net8 442f m=1
+RL net9 out 50 m=1
+Vout net9 GND dc 0 ac 0
+Vdd net7 GND 1.8
+**** begin user architecture code
+
+
+.lib /home/nehan/.volare/sky130A/libs.tech/ngspice/sky130.lib.spice ss
+.GLOBAL GND
+.temp 85
+.param vamp=0.001
+.control
+save all
+
+op
+print v(nin) v(out) -i(Vdd)
+
+* ---- S-parameters, 2.0 to 2.8 GHz, 1 MHz steps ----
+alter vin acmag = 1
+alter vout acmag = 0
+ac lin 3001 1e9 4e9
+let s11 = 2*v(nin)-1
+let s21 = 2*v(out)
+
+alter vin acmag = 0
+alter vout acmag = 1
+ac lin 3001 1e9 4e9
+let s22 = 2*v(out)-1
+let s12 = 2*v(nin)
+let s11 = ac1.s11*1
+let s21 = ac1.s21*1
+let s11db = db(s11)
+let s21db = db(s21)
+let s22db = db(s22)
+let zin = 50*(1+s11)/(1-s11)
+let rin = real(zin)
+let xin = imag(zin)
+let zout = 50*(1+s22)/(1-s22)
+let rout = real(zout)
+let xout = imag(zout)
+let s12db = db(s12)
+let dlt = s11*s22 - s12*s21
+let dmag = mag(dlt)
+let kfac = (1 - mag(s11)*mag(s11) - mag(s22)*mag(s22) + dmag*dmag)/(2*mag(s12*s21))
+let mu = (1 - mag(s11)*mag(s11))/(mag(s22 - dlt*conj(s11)) + mag(s12*s21))
+let mup = (1 - mag(s22)*mag(s22))/(mag(s11 - dlt*conj(s22)) + mag(s12*s21))
+
+plot s11db s22db vs frequency title 'S11 and S22 (dB)'
+plot s21db vs frequency title 'S21 (dB)'
+
+meas ac s11_2p4G find s11db at=2.4e9
+meas ac s21_2p4G find s21db at=2.4e9
+meas ac s22_2p4G find s22db at=2.4e9
+meas ac rin_2p4G find rin at=2.4e9
+meas ac xin_2p4G find xin at=2.4e9
+meas ac rout_2p4G find rout at=2.4e9
+meas ac xout_2p4G find xout at=2.4e9
+meas ac s12_2p4G find s12db at=2.4e9
+meas ac k_2p4G find kfac at=2.4e9
+meas ac mu_2p4G find mu at=2.4e9
+meas ac mup_2p4G find mup at=2.4e9
+meas ac f_s11best min_at s11db
+
+* ---- bandwidth ----
+meas ac f11_lo when s11db=-10 cross=1
+meas ac f11_hi when s11db=-10 cross=2
+meas ac f22_lo when s22db=-10 cross=1
+meas ac f22_hi when s22db=-10 cross=2
+let s21n = s21db - vecmax(s21db)
+meas ac f3_lo when s21n=-3 cross=1
+meas ac f3_hi when s21n=-3 cross=2
+
+* ---- P1dB, IIP3 and OIP3 estimates: input power sweep at 2.4 GHz ----
+set wr_singlescale
+set wr_vecnames
+wrdata results/data/lna_corner_ss_85/lna_corner_ss_85_sparams.dat s11db s21db s12db s22db rin xin
++ rout xout kfac dmag mu mup
+set g0 = $&s21_2p4g
+
+* ---- noise figure at 2.4 GHz (Rs = 50 ohm at the input) ----
+alter vin acmag = 1
+alter vout acmag = 0
+noise v(out) vin lin 41 1e9 5e9
+setplot noise2
+let nf = 10*log10(inoise_spectrum*inoise_spectrum/(4*1.380649e-23*300.15*50))
+plot nf vs frequency title 'Noise figure (dB)'
+let f24 = frequency[14]
+print f24 nf[14]
+wrdata results/data/lna_corner_ss_85/lna_corner_ss_85_nf.dat nf
+.endc
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.end
