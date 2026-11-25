@@ -1,0 +1,39 @@
+* breakdown s=0.9979
+.lib /home/nehan/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+XM3 outn g3 n1 0 sky130_fd_pr__nfet_01v8 L=0.15 W=10 nf=1 ad=2.9 as=2.9 pd=20.58 ps=20.58 nrd=0.029 nrs=0.029 sa=0 sb=0 sd=0 mult=1 m=1
+XM4 outp g4 n1 0 sky130_fd_pr__nfet_01v8 L=0.15 W=10 nf=1 ad=2.9 as=2.9 pd=20.58 ps=20.58 nrd=0.029 nrs=0.029 sa=0 sb=0 sd=0 mult=1 m=1
+XM5 outp g5 n2 0 sky130_fd_pr__nfet_01v8 L=0.15 W=10 nf=1 ad=2.9 as=2.9 pd=20.58 ps=20.58 nrd=0.029 nrs=0.029 sa=0 sb=0 sd=0 mult=1 m=1
+XM6 outn g6 n2 0 sky130_fd_pr__nfet_01v8 L=0.15 W=10 nf=1 ad=2.9 as=2.9 pd=20.58 ps=20.58 nrd=0.029 nrs=0.029 sa=0 sb=0 sd=0 mult=1 m=1
+Rload2 VDD outn 500
+Rload1 VDD outp 500
+XMP1 n1 nbp VDD VDD sky130_fd_pr__pfet_01v8 L=0.5 W=4 nf=1 ad=1.16 as=1.16 pd=8.58 ps=8.58 nrd=0.0725 nrs=0.0725 sa=0 sb=0 sd=0 mult=8 m=8
+XMP2 n2 nbp VDD VDD sky130_fd_pr__pfet_01v8 L=0.5 W=4 nf=1 ad=1.16 as=1.16 pd=8.58 ps=8.58 nrd=0.0725 nrs=0.0725 sa=0 sb=0 sd=0 mult=8 m=8
+XM1 n1 gg1 0 0 sky130_fd_pr__nfet_01v8 L=0.15 W=4 nf=1 ad=1.16 as=1.16 pd=8.58 ps=8.58 nrd=0.0725 nrs=0.0725 sa=0 sb=0 sd=0 mult=10 m=10
+Rbg1 gg1 nb 10k
+Cc1 gg1 rfp 1m
+XM2 n2 gg2 0 0 sky130_fd_pr__nfet_01v8 L=0.15 W=4 nf=1 ad=1.16 as=1.16 pd=8.58 ps=8.58 nrd=0.0725 nrs=0.0725 sa=0 sb=0 sd=0 mult=10 m=10
+Rbg2 gg2 nb 10k
+Cc2 gg2 rfn 1m
+Iref VDD nb 250u
+XMb nb nb 0 0 sky130_fd_pr__nfet_01v8 L=0.15 W=4 nf=1 ad=1.16 as=1.16 pd=8.58 ps=8.58 nrd=0.0725 nrs=0.0725 sa=0 sb=0 sd=0 mult=1 m=1
+XMPb nbp nbp VDD VDD sky130_fd_pr__pfet_01v8 L=0.5 W=4 nf=1 ad=1.16 as=1.16 pd=8.58 ps=8.58 nrd=0.0725 nrs=0.0725 sa=0 sb=0 sd=0 mult=1 m=1
+Ibp nbp 0 125u
+Vdd VDD 0 1.8
+Cl1 outp 0 2p
+Cl2 outn 0 2p
+Rext outp outn 20k
+Cnb nb 0 10p
+Vg3 g3 0 1.79916
+Vg5 g5 0 1.79916
+Vg4 g4 0 1.00084
+Vg6 g6 0 1.00084
+Rs1 rinp rfp 50
+Vinp rinp 0 dc 0 ac 0.5
+Rs2 rinn rfn 50
+Vinn rinn 0 dc 0 ac -0.5
+.control
+noise v(outp,outn) Vinp lin 1 50meg 50meg
+setplot noise1
+print all
+.endc
+.end

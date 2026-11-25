@@ -1,0 +1,19 @@
+configuration,requested_output_V,input_V,feedback_input_V,measured_output_V,tracking_error_mV,Idd_uA,power_uW,XM6_region,XM7_region,output_stage_saturated,tracking_within_10mV,point_pass
+isolated_gain5,0.300,0.530000,0.530030,0.300147,0.147,180.5735,325.0322,saturation,saturation,True,True,True
+isolated_gain5,0.400,0.550000,0.549986,0.399929,-0.071,180.3712,324.6681,saturation,saturation,True,True,True
+isolated_gain5,0.500,0.570000,0.569944,0.499721,-0.279,180.1377,324.2478,saturation,saturation,True,True,True
+isolated_gain5,0.700,0.610000,0.609862,0.699309,-0.691,179.6122,323.3020,saturation,saturation,True,True,True
+isolated_gain5,0.900,0.650000,0.649777,0.898886,-1.114,179.0251,322.2452,saturation,saturation,True,True,True
+isolated_gain5,1.100,0.690000,0.689688,1.098438,-1.562,178.3493,321.0288,saturation,saturation,True,True,True
+isolated_gain5,1.300,0.730000,0.729586,1.297932,-2.068,177.3967,319.3140,saturation,saturation,True,True,True
+isolated_gain5,1.400,0.750000,0.749523,1.397616,-2.384,176.4864,317.6755,saturation,saturation,True,True,True
+isolated_gain5,1.500,0.770000,0.769427,1.497135,-2.865,174.1876,313.5377,saturation,saturation,True,True,True
+unity_follower,0.300,0.300000,0.300708,0.300708,0.708,164.3360,295.8048,not measured,not measured,,True,
+unity_follower,0.400,0.400000,0.399933,0.399933,-0.067,173.9372,313.0870,not measured,not measured,,True,
+unity_follower,0.500,0.500000,0.499938,0.499938,-0.062,179.5777,323.2399,not measured,not measured,,True,
+unity_follower,0.700,0.700000,0.699856,0.699856,-0.144,179.8534,323.7361,not measured,not measured,,True,
+unity_follower,0.900,0.900000,0.899548,0.899548,-0.452,178.8363,321.9054,not measured,not measured,,True,
+unity_follower,1.100,1.100000,1.053289,1.053289,-46.711,178.4975,321.2955,not measured,not measured,,False,
+unity_follower,1.300,1.300000,1.103769,1.103769,-196.231,180.2370,324.4267,not measured,not measured,,False,
+unity_follower,1.400,1.400000,1.110669,1.110669,-289.331,180.1664,324.2996,not measured,not measured,,False,
+unity_follower,1.500,1.500000,1.112082,1.112082,-387.918,180.1362,324.2451,not measured,not measured,,False,

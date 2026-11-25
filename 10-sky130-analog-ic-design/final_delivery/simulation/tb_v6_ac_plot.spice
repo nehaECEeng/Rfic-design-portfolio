@@ -1,0 +1,20 @@
+* Representative unity-feedback loop gain for the 0.65 V common-mode point.
+.lib "/home/nehan/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/combined/sky130.lib.spice" tt
+.include ../candidates/rri_tail_headroom_v6.spice
+Vdd vdd 0 1.8
+Ibn vdd ibn 20u
+Ibp ibp 0 20u
+Ibp2 ibp2 0 20u
+Vcm inp 0 dc 0.65 ac 0
+Vprobe out inn dc 0 ac 1
+CL out 0 2p
+Xamp inp inn out vdd 0 ibn ibp ibp2 opamp_rri_final
+.control
+op
+ac dec 40 1 1G
+let LoopGain = -v(out)/v(inn)
+let PhaseDegCont = unwrap((180/pi)*vp(LoopGain))
+set wr_singlescale
+wrdata ../results/v6_ac_loopgain.dat vdb(LoopGain) PhaseDegCont
+.endc
+.end

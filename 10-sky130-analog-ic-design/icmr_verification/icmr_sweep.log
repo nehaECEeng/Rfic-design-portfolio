@@ -1,0 +1,1763 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * sky130a tt icmr characterization, 1.8 v, cl=2 pf.
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  0.00000e+00
+No. of Data Rows : 1
+=== ICMR Vcm=0.50 V ===
+v(inp) = 5.000000e-01
+v(inn) = 4.999377e-01
+v(out) = 4.999377e-01
+v(xamp.tn) = 1.003772e-01
+v(xamp.tp) = 1.206320e+00
+v(xamp.n1st) = 5.637703e-01
+v(xamp.p1) = 5.170778e-01
+idd = 1.795777e-04
+pwr = 3.232399e-04
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469870e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567256e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vds] = 4.469709e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539433e-02
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[id] = 1.792406e-05
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469887e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567253e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vds] = 1.003484e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539493e-02
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[id] = 1.982816e-05
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494189e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703652e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vds] = 5.928133e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593088e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[id] = 9.042096e-06
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 3.995568e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.023985e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.204217e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 4.301251e-02
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[id] = 8.881968e-06
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 3.996192e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.023985e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vds] = 4.633859e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 4.301688e-02
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[id] = 9.962887e-06
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.061568e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vth] = 6.191269e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vds] = 6.887912e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 1.290483e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[id] = 9.865278e-06
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.060968e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 6.191264e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 6.421032e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 1.290088e-01
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[id] = 9.042096e-06
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vgs] = 1.178994e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vth] = 1.046609e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vds] = 1.178794e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vdsat] = 1.520987e-01
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[id] = 9.047755e-06
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vgs] = 1.178994e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vth] = 1.046609e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vds] = 1.235830e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vdsat] = 1.520986e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[id] = 9.962888e-06
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.170125e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572590e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.169471e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 8.545735e-02
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[id] = 1.003107e-05
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.170120e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572591e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.636387e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 8.545707e-02
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[id] = 8.165968e-05
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.636363e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572737e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vds] = 4.996699e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 1.126354e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[id] = 8.165968e-05
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494007e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.709581e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vds] = 1.299159e+00
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.588619e-01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 361
+a0_db               =  7.329329e+01
+ugb                 =  1.253734e+07
+phaseradatugb       =  -1.762321e+00
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+phasedegatugb       =  -1.009736e+02
+pm_deg = 7.902640e+01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+=== ICMR Vcm=0.55 V ===
+v(inp) = 5.500000e-01
+v(inn) = 5.499224e-01
+v(out) = 5.499224e-01
+v(xamp.tn) = 1.413467e-01
+v(xamp.tp) = 1.247928e+00
+v(xamp.n1st) = 5.631878e-01
+v(xamp.p1) = 5.169138e-01
+idd = 1.798575e-04
+pwr = 3.237436e-04
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469870e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567256e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vds] = 4.469709e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539433e-02
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[id] = 1.843155e-05
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469883e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567254e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vds] = 1.413170e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539479e-02
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[id] = 1.977279e-05
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494201e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703648e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vds] = 5.512074e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593099e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[id] = 9.294967e-06
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.085720e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.103376e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vds] = 4.769144e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 4.369675e-02
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[id] = 9.136580e-06
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.086496e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.103375e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vds] = 4.218337e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 4.370240e-02
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[id] = 9.934665e-06
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vgs] = 6.977811e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vth] = 6.103225e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.305648e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 1.289505e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[id] = 9.838122e-06
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 6.977057e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 6.103221e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 6.842952e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 1.289009e-01
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[id] = 9.294967e-06
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vgs] = 1.181526e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vth] = 1.046610e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vds] = 1.181320e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vdsat] = 1.539018e-01
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[id] = 9.300565e-06
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vgs] = 1.181526e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vth] = 1.046610e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vds] = 1.236401e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vdsat] = 1.539017e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[id] = 9.934666e-06
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.168486e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572589e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.167835e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vdsNote: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+at] = 8.536966e-02
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[id] = 1.000211e-05
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.168482e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572590e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.630565e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 8.536938e-02
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[id] = 8.148922e-05
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.630541e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572737e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.496551e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 1.122741e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[id] = 8.148921e-05
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494017e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.709579e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vds] = 1.249177e+00
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.588628e-01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  1.00000e+00
+No. of Data Rows : 361
+a0_db               =  7.348744e+01
+ugb                 =  1.274789e+07
+phaseradatugb       =  -1.756364e+00
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+phasedegatugb       =  -1.006322e+02
+pm_deg = 7.936780e+01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+=== ICMR Vcm=0.60 V ===
+v(inp) = 6.000000e-01
+v(inn) = 5.999029e-01
+v(out) = 5.999029e-01
+v(xamp.tn) = 1.828384e-01
+v(xamp.tp) = 1.289399e+00
+v(xamp.n1st) = 5.626160e-01
+v(xamp.p1) = 5.167287e-01
+idd = 1.799212e-04
+pwr = 3.238581e-04
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469870e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567256e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vds] = 4.469709e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539433e-02
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[id] = 1.873060e-05
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469880e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567254e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vds] = 1.828082e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539470e-02
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[id] = 1.970951e-05
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494215e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703644e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vds] = 5.097396e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593113e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[id] = 9.444016e-06
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.170608e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.181874e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vds] = 4.339474e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 4.435078e-02
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[id] = 9.286586e-06
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.171579e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.181874e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vds] = 3.797701e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 4.435805e-02
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[id] = 9.902895e-06
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vgs] = 6.892719e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vth] = 6.013756e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.722219e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 1.288437e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[id] = 9.806618e-06
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 6.891770e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 6.013751e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.263390e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 1.287814e-01
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[id] = 9.444016e-06
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vgs] = 1.182998e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vth] = 1.046611e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vds] = 1.182789e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vdsat] = 1.549536e-01
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[id] = 9.449598e-06
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vgs] = 1.182998e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vth] = 1.046611e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vds] = 1.236966e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vdsat] = 1.549535e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[id] = 9.902895e-06
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.166638e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572589e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.165988e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vdsNote: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+at] = 8.527079e-02
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[id] = 9.969632e-06
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.166633e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572590e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.624852e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 8.527052e-02
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[id] = 8.131802e-05
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.624826e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572736e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.996362e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 1.119197e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[id] = 8.131802e-05
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494026e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.709576e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vds] = 1.199198e+00
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.588637e-01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  1.88365e+00
+No. of Data Rows : 361
+a0_db               =  7.358879e+01
+ugb                 =  1.286080e+07
+phaseradatugb       =  -1.754543e+00
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+phasedegatugb       =  -1.005279e+02
+pm_deg = 7.947210e+01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+=== ICMR Vcm=0.65 V ===
+v(inp) = 6.500000e-01
+v(inn) = 6.498810e-01
+v(out) = 6.498810e-01
+v(xamp.tn) = 2.245731e-01
+v(xamp.tp) = 1.330712e+00
+v(xamp.n1st) = 5.620520e-01
+v(xamp.p1) = 5.165085e-01
+idd = 1.799101e-04
+pwr = 3.238382e-04
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469870e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567256e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vds] = 4.469709e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539433e-02
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[id] = 1.896772e-05
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469878e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567255e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vds] = 2.245426e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539463e-02
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[id] = 1.963384e-05
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494231e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703639e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vds] = 4.684303e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593129e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[id] = 9.562362e-06
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.253040e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.259016e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vds] = 3.910517e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 4.499341e-02
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[id] = 9.405360e-06
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.254231e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.259016e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vds] = 3.374713e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 4.500256e-02
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[id] = 9.865176e-06
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vgs] = 6.806073e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vth] = 5.922841e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vds] = 8.137565e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 1.287140e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[id] = 9.768662e-06
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 6.804905e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 5.922837e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.682173e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 1.286375e-01
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[id] = 9.562361e-06
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vgs] = 1.184156e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vth] = 1.046612e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vds] = 1.183945e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vdsat] = 1.557831e-01
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[id] = 9.567942e-06
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vgs] = 1.184156e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vth] = 1.046612e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vds] = 1.237525e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vdsat] = 1.557830e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[id] = 9.865177e-06
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.164438e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572588e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.163790e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vdsNote: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+at] = 8.515322e-02
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[id] = 9.931246e-06
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.164433e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572589e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.619217e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 8.515295e-02
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[id] = 8.114594e-05
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.619189e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572736e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vds] = 6.496149e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 1.115707e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[id] = 8.114594e-05
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494035e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.709573e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vds] = 1.149222e+00
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.588646e-01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  1.33352e+02
+No. of Data Rows : 361
+a0_db               =  7.361850e+01
+ugb                 =  1.294499e+07
+phaseradatugb       =  -1.754663e+00
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+phasedegatugb       =  -1.005348e+02
+pm_deg = 7.946520e+01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+=== ICMR Vcm=0.70 V ===
+v(inp) = 7.000000e-01
+v(inn) = 6.998560e-01
+v(out) = 6.998560e-01
+v(xamp.tn) = 2.664736e-01
+v(xamp.tp) = 1.371833e+00
+v(xamp.n1st) = 5.614940e-01
+v(xamp.p1) = 5.162297e-01
+idd = 1.798534e-04
+pwr = 3.237361e-04
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469870e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567256e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vds] = 4.469709e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539433e-02
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[id] = 1.917995e-05
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469877e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567255e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vds] = 2.664427e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539457e-02
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[id] = 1.953789e-05
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494252e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703633e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vds] = 4.273128e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593149e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[id] = 9.668555e-06
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.333785e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.334741e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vds] = 3.481173e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 4.563004e-02
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[id] = 9.511393e-06
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.335226e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.334741e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vds] = 2.950127e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 4.564138e-02
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[id] = 9.817596e-06
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vgs] = 6.717551e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vth] = 5.830490e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vds] = 8.551591e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 1.285389e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[id] = 9.720300e-06
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 6.716132e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 5.830485e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 8.098992e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 1.284462e-01
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[id] = 9.668555e-06
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vgs] = 1.185188e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vth] = 1.046612e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vds] = 1.184974e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vdsat] = 1.565233e-01
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[id] = 9.674139e-06
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vgs] = 1.185187e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vth] = 1.046612e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vds] = 1.238078e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vdsat] = 1.565232e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[id] = 9.817596e-06
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.161653e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572588e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.161009e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vdsNote: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+at] = 8.500460e-02
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[id] = 9.883048e-06
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.161649e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572589e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.613643e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 8.500434e-02
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[id] = 8.097280e-05
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.613612e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572735e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vds] = 6.995904e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 1.112257e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[id] = 8.097280e-05
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494045e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.709570e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vds] = 1.099249e+00
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.588656e-01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  1.00000e+00
+No. of Data Rows : 361
+a0_db               =  7.357383e+01
+ugb                 =  1.301222e+07
+phaseradatugb       =  -1.755687e+00
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+phasedegatugb       =  -1.005934e+02
+pm_deg = 7.940660e+01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+=== ICMR Vcm=0.75 V ===
+v(inp) = 7.500000e-01
+v(inn) = 7.498253e-01
+v(out) = 7.498253e-01
+v(xamp.tn) = 3.085042e-01
+v(xamp.tp) = 1.412708e+00
+v(xamp.n1st) = 5.609403e-01
+v(xamp.p1) = 5.158507e-01
+idd = 1.797496e-04
+pwr = 3.235493e-04
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469870e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567256e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vds] = 4.469709e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539433e-02
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[id] = 1.937997e-05
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469875e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567255e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vds] = 3.084730e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539451e-02
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[id] = 1.940746e-05
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494281e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703624e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vds] = 3.864443e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593177e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[id] = 9.769089e-06
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.413172e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.409065e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vds] = 3.051144e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 4.626310e-02
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[id] = 9.610884e-06
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.414919e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.409064e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vds] = 2.524284e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 4.627721e-02
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[id] = 9.753174e-06
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vgs] = 6.626614e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vth] = 5.736767e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vds] = 8.964152e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 1.282788e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[id] = 9.654291e-06
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 6.624890e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 5.736762e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 8.513301e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 1.281664e-01
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[id] = 9.769088e-06
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vgs] = 1.186158e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vth] = 1.046613e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vds] = 1.185941e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vdsat] = 1.572205e-01
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[id] = 9.774678e-06
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vgs] = 1.186157e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vth] = 1.046613e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vds] = 1.238627e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vdsat] = 1.572204e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[id] = 9.753175e-06
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.157867e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572587e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.157227e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vdsNote: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+at] = 8.480284e-02
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[id] = 9.818086e-06
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.157863e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572588e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.608115e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 8.480258e-02
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[id] = 8.079837e-05
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.608078e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572734e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vds] = 7.495603e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 1.108838e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[id] = 8.079837e-05
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494055e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.709567e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vds] = 1.049281e+00
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.588665e-01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  1.18850e+00
+No. of Data Rows : 361
+a0_db               =  7.342821e+01
+ugb                 =  1.306205e+07
+phaseradatugb       =  -1.757384e+00
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+phasedegatugb       =  -1.006907e+02
+pm_deg = 7.930930e+01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+=== ICMR Vcm=0.80 V ===
+v(inp) = 8.000000e-01
+v(inn) = 7.997830e-01
+v(out) = 7.997830e-01
+v(xamp.tn) = 3.506369e-01
+v(xamp.tp) = 1.453233e+00
+v(xamp.n1st) = 5.603900e-01
+v(xamp.p1) = 5.152943e-01
+idd = 1.795783e-04
+pwr = 3.232410e-04
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469870e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567256e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vds] = 4.469709e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539433e-02
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[id] = 1.957314e-05
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469874e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567256e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vds] = 3.506053e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539445e-02
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[id] = 1.921638e-05
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494322e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703611e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vds] = 3.459269e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593218e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[id] = 9.867005e-06
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.491421e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.482014e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vds] = 2.620408e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 4.689437e-02
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[id] = 9.706137e-06
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.493592e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.482014e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vds] = 2.097453e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 4.691233e-02
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[id] = 9.659176e-06
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vgs] = 6.532316e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vth] = 5.641846e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vds] = 9.375016e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 1.278611e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[id] = 9.557206e-06
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 6.530169e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 5.641841e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 8.924105e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 1.277217e-01
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[id] = 9.867004e-06
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vgs] = 1.187096e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vth] = 1.046614e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vds] = 1.186878e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vdsat] = 1.578962e-01
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[id] = 9.872601e-06
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vgs] = 1.187096e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vth] = 1.046614e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vds] = 1.239173e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vdsat] = 1.578961e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[id] = 9.659177e-06
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.152310e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572585e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.151676e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vdsNote: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+at] = 8.450731e-02
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[id] = 9.723672e-06
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.152305e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572586e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.602624e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 8.450705e-02
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[id] = 8.062234e-05
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.602578e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572734e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vds] = 7.995185e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 1.105444e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[id] = 8.062234e-05
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494064e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.709564e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vds] = 9.993256e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.588675e-01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  3.54813e+05
+No. of Data Rows : 361
+a0_db               =  7.310440e+01
+ugb                 =  1.308627e+07
+phaseradatugb       =  -1.760014e+00
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+phasedegatugb       =  -1.008414e+02
+pm_deg = 7.915860e+01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+=== ICMR Vcm=0.85 V ===
+v(inp) = 8.500000e-01
+v(inn) = 8.497118e-01
+v(out) = 8.497118e-01
+v(xamp.tn) = 3.928312e-01
+v(xamp.tp) = 1.493226e+00
+v(xamp.n1st) = 5.598421e-01
+v(xamp.p1) = 5.144214e-01
+idd = 1.792967e-04
+pwr = 3.227341e-04
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469870e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567256e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vds] = 4.469709e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539433e-02
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[id] = 1.976198e-05
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469872e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567256e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vds] = 3.927994e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539440e-02
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[id] = 1.891759e-05
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494388e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703592e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vds] = 3.059470e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593281e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[id] = 9.964583e-06
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.568765e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.553594e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vds] = 2.189146e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 4.752583e-02
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[id] = 9.797396e-06
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.571649e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.553594e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vds] = 1.670030e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 4.755031e-02
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[id] = 9.513048e-06
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vgs] = 6.432992e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vth] = 5.546120e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vds] = 9.783742e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 1.271558e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[id] = 9.404547e-06
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 6.430134e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 5.546114e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 9.329584e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 1.269712e-01
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[id] = 9.964582e-06
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vgs] = 1.188026e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vth] = 1.046614e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vds] = 1.187805e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vdsat] = 1.585664e-01
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[id] = 9.970185e-06
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vgs] = 1.188026e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vth] = 1.046614e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vds] = 1.239717e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vdsat] = 1.585663e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[id] = 9.513049e-06
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.143589e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572583e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.142965e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vdsNote: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+at] = 8.404516e-02
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[id] = 9.577337e-06
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.143585e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572584e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.597164e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 8.404490e-02
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[id] = 8.044438e-05
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.597102e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572733e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vds] = 8.494479e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 1.102069e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[id] = 8.044438e-05
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494074e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.709561e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vds] = 9.493988e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.588684e-01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  1.00000e+00
+No. of Data Rows : 361
+a0_db               =  7.237349e+01
+ugb                 =  1.306276e+07
+phaseradatugb       =  -1.764481e+00
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+phasedegatugb       =  -1.010973e+02
+pm_deg = 7.890270e+01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+=== ICMR Vcm=0.90 V ===
+v(inp) = 9.000000e-01
+v(inn) = 8.995476e-01
+v(out) = 8.995476e-01
+v(xamp.tn) = 4.349851e-01
+v(xamp.tp) = 1.532364e+00
+v(xamp.n1st) = 5.592962e-01
+v(xamp.p1) = 5.130089e-01
+idd = 1.788363e-04
+pwr = 3.219054e-04
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469870e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567256e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vds] = 4.469709e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539433e-02
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[id] = 1.994753e-05
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469871e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567256e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vds] = 4.349530e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539434e-02
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[id] = 1.843473e-05
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494493e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703560e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vds] = 2.668299e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593384e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[id] = 1.006592e-05
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.645584e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.623706e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vds] = 1.757990e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 4.816100e-02
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[id] = 9.881615e-06
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.650109e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.623706e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vds] = 1.243032e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 4.820053e-02
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[id] = 9.280115e-06
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vgs] = 6.326068e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vth] = 5.450357e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vds] = 1.018935e+00
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 1.259561e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[id] = 9.154617e-06
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 6.321572e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 5.450350e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 9.726537e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 1.256680e-01
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[id] = 1.006592e-05
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vgs] = 1.188985e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vth] = 1.046615e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vds] = 1.188763e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vdsat] = 1.592591e-01
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[id] = 1.007152e-05
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vgs] = 1.188985e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vth] = 1.046615e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vds] = 1.240258e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vdsat] = 1.592590e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[id] = 9.280115e-06
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.129480e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572580e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.128872e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vdsNote: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+at] = 8.330146e-02
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[id] = 9.344528e-06
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.129476e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572581e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.591736e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 8.330121e-02
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[id] = 8.026414e-05
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.591646e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572732e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vds] = 8.992843e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 1.098710e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[id] = 8.026414e-05
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494084e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.709558e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vds] = 8.995650e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.588694e-01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  1.00000e+00
+No. of Data Rows : 361
+a0_db               =  7.044326e+01
+ugb                 =  1.293226e+07
+phaseradatugb       =  -1.772935e+00
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+phasedegatugb       =  -1.015817e+02
+pm_deg = 7.841830e+01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+=== ICMR Vcm=0.95 V ===
+v(inp) = 9.500000e-01
+v(inn) = 9.489340e-01
+v(out) = 9.489340e-01
+v(xamp.tn) = 4.766443e-01
+v(xamp.tp) = 1.570095e+00
+v(xamp.n1st) = 5.587552e-01
+v(xamp.p1) = 5.108417e-01
+idd = 1.781380e-04
+pwr = 3.206483e-04
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469870e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567256e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vds] = 4.469709e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539433e-02
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[id] = 2.012874e-05
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469869e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567257e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vds] = 4.766119e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539429e-02
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[id] = 1.767146e-05
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494660e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703509e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vds] = 2.291330e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593546e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[id] = 1.018935e-05
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.722856e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.691689e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vds] = 1.329766e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 4.880950e-02
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[id] = 9.939393e-06
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.733517e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.691689e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vds] = 8.210296e-02
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 4.890629e-02
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[id] = 8.931034e-06
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vgs] = 6.209585e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vth] = 5.355980e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vds] = 1.058849e+00
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 1.240661e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[id] = 8.740423e-06
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 6.198968e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 5.355969e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 1.010944e+00
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 1.233942e-01
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[id] = 1.018935e-05
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vgs] = 1.190146e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vth] = 1.046615e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vds] = 1.189920e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vdsat] = 1.600983e-01
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[id] = 1.019495e-05
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vgs] = 1.190145e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vth] = 1.046615e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vds] = 1.240794e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vdsat] = 1.600982e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[id] = 8.931035e-06
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.107831e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572575e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.107245e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vdsNote: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+at] = 8.217025e-02
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[id] = 8.995978e-06
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.107826e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572576e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.586372e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 8.216999e-02
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[id] = 8.008219e-05
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.586239e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572732e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vds] = 9.486713e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 1.095386e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[id] = 8.008219e-05
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494094e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.709555e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vds] = 8.501806e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.588704e-01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  1.00000e+00
+No. of Data Rows : 361
+a0_db               =  6.451273e+01
+ugb                 =  1.252592e+07
+phaseradatugb       =  -1.786218e+00
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+phasedegatugb       =  -1.023428e+02
+pm_deg = 7.765720e+01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+=== ICMR Vcm=1.00 V ===
+v(inp) = 1.000000e+00
+v(inn) = 9.951769e-01
+v(out) = 9.951769e-01
+v(xamp.tn) = 5.147587e-01
+v(xamp.tp) = 1.605007e+00
+v(xamp.n1st) = 5.582475e-01
+v(xamp.p1) = 5.085841e-01
+idd = 1.774225e-04
+pwr = 3.193605e-04
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469870e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567256e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vds] = 4.469709e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539433e-02
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[id] = 2.029312e-05
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469868e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567257e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.147261e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539424e-02
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[id] = 1.658115e-05
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494898e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703437e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vds] = 1.942678e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593778e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[id] = 1.046399e-05
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.804140e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.752803e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vds] = 9.230508e-02
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 4.951090e-02
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[id] = 9.829134e-06
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.852373e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.752803e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vds] = 4.348081e-02
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 4.999193e-02
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[id] = 8.578014e-06
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vgs] = 6.096364e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vth] = 5.266758e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vds] = 1.096035e+00
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 1.220964e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[id] = 8.003134e-06
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 6.048263e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 5.266724e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 1.046398e+00
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 1.191076e-01
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[id] = 1.046399e-05
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vgs] = 1.192696e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vth] = 1.046617e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vds] = 1.192465e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vdsat] = 1.619484e-01
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[id] = 1.046948e-05
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vgs] = 1.192696e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vth] = 1.046617e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vds] = 1.241289e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vdsat] = 1.619483e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[id] = 8.578015e-06
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.085279e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572570e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.084716e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vdsNote: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+at] = 8.100491e-02
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[id] = 8.643486e-06
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.085274e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572571e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.581341e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 8.100466e-02
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[id] = 7.990787e-05
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.581164e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572731e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vds] = 9.949148e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 1.092269e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[id] = 7.990787e-05
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494104e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.709552e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vds] = 8.039395e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.588713e-01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 361
+a0_db               =  5.211148e+01
+ugb                 =  1.152446e+07
+phaseradatugb       =  -1.760990e+00
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+phasedegatugb       =  -1.008973e+02
+pm_deg = 7.910270e+01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  0.00000e+00
+No. of Data Rows : 1
+=== ICMR Vcm=1.05 V ===
+v(inp) = 1.050000e+00
+v(inn) = 1.030200e+00
+v(out) = 1.030200e+00
+v(xamp.tn) = 5.402807e-01
+v(xamp.tp) = 1.633956e+00
+v(xamp.n1st) = 5.578613e-01
+v(xamp.p1) = 5.090829e-01
+idd = 1.775500e-04
+pwr = 3.195900e-04
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469870e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567256e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vds] = 4.469709e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539433e-02
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[id] = 2.040259e-05
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469867e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567257e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.402479e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539421e-02
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[id] = 1.531770e-05
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.495174e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703353e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vds] = 1.653744e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.594047e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[id] = 1.122735e-05
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.899145e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.793170e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.988701e-02
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.040705e-02
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[id] = 9.175235e-06
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.097156e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.793169e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vds] = 1.757318e-02
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.300751e-02
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[id] = 8.655091e-06
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vgs] = 6.035605e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vth] = 5.191351e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vds] = 1.124481e+00
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 1.226225e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[id] = 6.662607e-06
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 5.838053e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 5.191232e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 1.075793e+00
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 1.106534e-01
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[id] = 1.122735e-05
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vgs] = 1.199575e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vth] = 1.046621e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vds] = 1.199327e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vdsat] = 1.669723e-01
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[id] = 1.123242e-05
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vgs] = 1.199575e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vth] = 1.046621e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vds] = 1.241642e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vdsat] = 1.669722e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[id] = 8.655092e-06
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.090262e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572571e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.089694e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 8.126124e-02
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[id] = 8.719798e-06
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.090257e-01
+@m.xamp.xnl2.msNote: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+ky130_fd_pr__nfet_01v8_lvt[vth] = 4.572572e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.577469e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 8.126099e-02
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[id] = 7.977254e-05
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.577305e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572731e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vds] = 1.029938e+00
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 1.089901e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[id] = 7.977254e-05
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494111e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.709550e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.689182e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.588720e-01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 361
+a0_db               =  4.320375e+01
+ugb                 =  9.874969e+06
+phaseradatugb       =  -1.610277e+00
+phasedegatugb       =  -9.226208e+01
+pm_deg = 8.773792e+01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+=== ICMR Vcm=1.10 V ===
+v(inp) = 1.100000e+00
+v(inn) = 1.053289e+00
+v(out) = 1.053289e+00
+v(xamp.tn) = 5.515051e-01
+v(xamp.tp) = 1.656314e+00
+v(xamp.n1st) = 5.576056e-01
+v(xamp.p1) = 5.122175e-01
+idd = 1.784975e-04
+pwr = 3.212955e-04
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469870e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567256e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vds] = 4.469709e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539433e-02
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[id] = 2.045060e-05
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469867e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567257e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.514722e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539420e-02
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[id] = 1.408508e-05
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.495444e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703272e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vds] = 1.430706e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.594309e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[id] = 1.236338e-05
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.017790e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.810786e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vds] = 3.891125e-02
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.176387e-02
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[id] = 8.087224e-06
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.484916e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.810783e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vds] = 6.093916e-03
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 6.130804e-02
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[id] = 9.151472e-06
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vgs] = 6.028176e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vth] = 5.132201e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vds] = 1.143682e+00
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 1.255684e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[id] = 4.933605e-06
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 5.562022e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 5.131947e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 1.098485e+00
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 9.832721e-02
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[id] = 1.236338e-05
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vgs] = 1.209300e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vth] = 1.046628e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vds] = 1.209027e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vdsat] = 1.741553e-01
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[id] = 1.236766e-05
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vgs] = 1.209300e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vth] = 1.046628e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vds] = 1.241847e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vdsat] = 1.741552e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[id] = 9.151473e-06
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.121574e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572578e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.120974e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 8.288696e-02
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[id] = 9.214044e-06
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.121570e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572579e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.574847e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 8.288671e-02
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[id] = 7.968137e-05
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.574749e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572730e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vds] = 1.053028e+00
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 1.088334e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[id] = 7.968137e-05
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494116e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.709548e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.458299e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.588725e-01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  1.67880e+02
+No. of Data Rows : 361
+a0_db               =  3.861611e+01
+ugb                 =  7.774483e+06
+phaseradatugb       =  -1.421955e+00
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+phasedegatugb       =  -8.147200e+01
+pm_deg = 9.852800e+01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+=== ICMR Vcm=1.15 V ===
+v(inp) = 1.150000e+00
+v(inn) = 1.070367e+00
+v(out) = 1.070367e+00
+v(xamp.tn) = 5.551524e-01
+v(xamp.tp) = 1.673763e+00
+v(xamp.n1st) = 5.574156e-01
+v(xamp.p1) = 5.153197e-01
+idd = 1.794661e-04
+pwr = 3.230390e-04
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469870e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567256e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vds] = 4.469709e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539433e-02
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[id] = 2.046618e-05
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469866e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567257e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.551194e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539419e-02
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[id] = 1.295539e-05
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.495691e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703197e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vds] = 1.256711e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.594549e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[id] = 1.344727e-05
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.152089e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.816493e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vds] = 2.644985e-02
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.373598e-02
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[id] = 7.018912e-06
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.948448e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.816489e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vds] = 2.257599e-03
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 7.889669e-02
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[id] = 9.663456e-06
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vgs] = 6.031772e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vth] = 5.085459e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vds] = 1.158005e+00
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 1.285229e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[id] = 3.291937e-06
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 5.236882e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 5.085070e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 1.116198e+00
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 8.451517e-02
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[id] = 1.344727e-05
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vgs] = 1.218090e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vth] = 1.046634e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vds] = 1.217792e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vdsat] = 1.807197e-01
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[id] = 1.345068e-05
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vgs] = 1.218089e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vth] = 1.046634e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vds] = 1.241989e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vdsat] = 1.807196e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[id] = 9.663457e-06
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.152564e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572585e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.151930e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vdsNote: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+at] = 8.452079e-02
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[id] = 9.723705e-06
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.152560e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572586e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.572881e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 8.452055e-02
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[id] = 7.961275e-05
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.572851e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572730e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vds] = 1.070106e+00
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 1.087171e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[id] = 7.961275e-05
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494120e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.709547e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.287530e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.588729e-01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 361
+a0_db               =  3.578710e+01
+ugb                 =  5.949126e+06
+phaseradatugb       =  -1.318196e+00
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+phasedegatugb       =  -7.552709e+01
+pm_deg = 1.044729e+02
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  0.00000e+00
+No. of Data Rows : 1
+=== ICMR Vcm=1.20 V ===
+v(inp) = 1.200000e+00
+v(inn) = 1.084574e+00
+v(out) = 1.084574e+00
+v(xamp.tn) = 5.562285e-01
+v(xamp.tp) = 1.687374e+00
+v(xamp.n1st) = 5.572570e-01
+v(xamp.p1) = 5.171441e-01
+idd = 1.800329e-04
+pwr = 3.240592e-04
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469870e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567256e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vds] = 4.469709e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539433e-02
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[id] = 2.047078e-05
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469866e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567257e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.561956e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539419e-02
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[id] = 1.196776e-05
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.495906e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703132e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vds] = 1.121028e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.594759e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[id] = 1.425381e-05
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.283401e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.818175e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vds] = 1.908407e-02
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.619722e-02
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[id] = 6.216970e-06
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 6.437690e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.818170e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vds] = 1.023483e-03
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 1.064702e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[id] = 9.974305e-06
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vgs] = 6.025739e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vth] = 5.048623e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vds] = 1.169779e+00
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 1.302955e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[id] = 1.993455e-06
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 4.873290e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 5.048131e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 1.130027e+00
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 7.122908e-02
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[id] = 1.425381e-05
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vgs] = 1.224361e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vth] = 1.046639e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vds] = 1.224045e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vdsat] = 1.854414e-01
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[id] = 1.425649e-05
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vgs] = 1.224361e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vth] = 1.046639e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vds] = 1.242112e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vdsat] = 1.854414e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[id] = 9.974306e-06
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.170786e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572590e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.170132e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 8.549280e-02
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[id] = 1.003298e-05
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.170782e-01
+@m.xamp.xnl2.msNote: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+ky130_fd_pr__nfet_01v8_lvt[vth] = 4.572591e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.571254e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 8.549256e-02
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[id] = 7.955480e-05
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.571266e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572730e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vds] = 1.084313e+00
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 1.086200e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[id] = 7.955480e-05
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494123e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.709546e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.145459e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.588732e-01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 361
+a0_db               =  3.362297e+01
+ugb                 =  4.641830e+06
+phaseradatugb       =  -1.267700e+00
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+phasedegatugb       =  -7.263384e+01
+pm_deg = 1.073662e+02
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+=== ICMR Vcm=1.25 V ===
+v(inp) = 1.250000e+00
+v(inn) = 1.095909e+00
+v(out) = 1.095909e+00
+v(xamp.tn) = 5.565531e-01
+v(xamp.tp) = 1.697329e+00
+v(xamp.n1st) = 5.571300e-01
+v(xamp.p1) = 5.178432e-01
+idd = 1.802288e-04
+pwr = 3.244118e-04
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469870e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567256e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vds] = 4.469709e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539433e-02
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[id] = 2.047217e-05
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469866e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567257e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.565201e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539419e-02
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[id] = 1.118496e-05
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.496077e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703080e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vds] = 1.021822e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.594926e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[id] = 1.476685e-05
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.393502e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.818683e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vds] = 1.486628e-02
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.872030e-02
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[id] = 5.705322e-06
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 6.934446e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.818677e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.723871e-04
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 1.406266e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[id] = 1.009537e-05
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vgs] = 6.011912e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vth] = 5.021467e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vds] = 1.179029e+00
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 1.309970e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[id] = 1.089595e-06
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 4.473043e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 5.020909e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 1.140150e+00
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 5.983006e-02
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[id] = 1.476685e-05
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vgs] = 1.228242e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vth] = 1.046642e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vds] = 1.227916e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vdsat] = 1.883786e-01
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[id] = 1.476903e-05
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vgs] = 1.228242e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vth] = 1.046642e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vds] = 1.242217e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vdsat] = 1.883785e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[id] = 1.009537e-05
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.177770e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572592e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.177107e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vdsNote: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+at] = 8.586745e-02
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[id] = 1.015331e-05
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.177766e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572592e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.569968e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 8.586721e-02
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[id] = 7.950794e-05
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.569996e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572730e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vds] = 1.095648e+00
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 1.085423e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[id] = 7.950794e-05
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494126e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.709545e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.032116e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.588735e-01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  1.00000e+00
+No. of Data Rows : 361
+a0_db               =  3.186290e+01
+ugb                 =  3.770272e+06
+phaseradatugb       =  -1.238089e+00
+phasedegatugb       =  -7.093730e+01
+pm_deg = 1.090627e+02
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+=== ICMR Vcm=1.30 V ===
+v(inp) = 1.300000e+00
+v(inn) = 1.103769e+00
+v(out) = 1.103769e+00
+v(xamp.tn) = 5.566602e-01
+v(xamp.tp) = 1.703791e+00
+v(xamp.n1st) = 5.570417e-01
+v(xamp.p1) = 5.179609e-01
+idd = 1.802370e-04
+pwr = 3.244267e-04
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469870e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567256e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vds] = 4.469709e-01
+@m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539433e-02
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[id] = 2.047262e-05
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vgs] = 4.469866e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.567257e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.566273e-01
+@m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 5.539419e-02
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[id] = 1.064906e-05
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.496195e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703044e-01
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vds] = 9.574331e-02
+@m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.595040e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[id] = 2.000000e-05
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494151e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.703663e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 7.489781e-01
+@m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.593051e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[id] = 1.506193e-05
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.471024e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.818850e-01
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vds] = 1.260329e-02
+@m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 6.076948e-02
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[id] = 5.417179e-06
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 7.433376e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vth] = 5.818844e-01
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vds] = 3.771405e-04
+@m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 1.772288e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[id] = 1.011586e-05
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vgs] = 5.997936e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vth] = 5.003740e-01
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vds] = 1.185372e+00
+@m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 1.311332e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[id] = 5.333718e-07
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vgs] = 4.037792e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vth] = 5.003143e-01
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vds] = 1.146725e+00
+@m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 5.125934e-02
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[id] = 1.505546e-05
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vgs] = 1.230391e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vth] = 1.046643e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vds] = 1.230058e+00
+@m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vdsat] = 1.900095e-01
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[id] = 1.505736e-05
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vgs] = 1.230391e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vth] = 1.046643e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vds] = 1.242292e+00
+@m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vdsat] = 1.900094e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[id] = 1.011585e-05
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.178945e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572592e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.178281e-01
+@m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 8.593062e-02
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[id] = 1.017357e-05
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.178941e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572593e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vds] = 5.569083e-01
+@m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 8.593039e-02
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[id] = 7.947509e-05
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vgs] = 5.569114e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vth] = 4.572730e-01
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vds] = 1.103508e+00
+@m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vdsat] = 1.084882e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[id] = 7.947509e-05
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vgs] = 7.494128e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vth] = 4.709545e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vds] = 6.953526e-01
+@m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vdsat] = 2.588736e-01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 361
+a0_db               =  3.057671e+01
+ugb                 =  3.245695e+06
+phaseradatugb       =  -1.219035e+00
+phasedegatugb       =  -6.984557e+01
+pm_deg = 1.101544e+02
+Note: Simulation executed from .control section 

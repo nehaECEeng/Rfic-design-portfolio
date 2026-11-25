@@ -1,0 +1,11 @@
+check,original,rerun,units,notes
+1kHz_output_density,5.58557018e-08,5.58557018e-08,V/sqrt(Hz),55.855702 nV/sqrt(Hz)
+1kHz_input_density,5.58816761e-08,5.58816761e-08,V/sqrt(Hz),55.881676 nV/sqrt(Hz)
+1kHz_source_to_output_gain,0.999535191494,0.999535191494,V/V,"AC magnitude, source transfer"
+full_band_output_rms_trapezoid,,0.00012486561417,V RMS,1 Hz to 1 GHz
+full_band_input_rms_from_gain_trapezoid,,0.00071798364153,V RMS,output density divided point-by-point by source transfer
+ngspice_output_total,0.0001248632,0.0001248632,V RMS,ngspice internal integral
+ngspice_input_total,0.000720798,0.000720798,V RMS,ngspice internal integral
+max_relative_spectrum_difference,0,0,relative,new vs original dense raw noise data
+max_relative_source_gain_difference,0,0,relative,new vs original AC transfer
+max_input_density_conversion_error,,9.49991077015e-09,relative,onoise / |Vout/Vsig| vs ngspice inoise

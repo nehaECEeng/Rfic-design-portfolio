@@ -1,0 +1,11 @@
+Corrected four-phase quasi-static noise summary (50 MHz IF, T=300.15 K)
+
+No nbp bypass: average differential output noise = 20.35 nV/sqrt(Hz).
+20 pF nbp bypass: average differential output noise = 20.35 nV/sqrt(Hz).
+Transient small-signal conversion gain (corrected P1dB sweep) = 8.8303 dB.
+Quasi-static phase-projection gain from the four LO snapshots = 7.89 dB.
+Using the measured transient gain and 100 ohm differential source resistance:
+SSB NF = 15.15 dB; DSB NF = 12.14 dB.
+
+The four-point LO phase sampling is coarse. These are quasi-static estimates,
+not periodic steady-state or cyclostationary noise results.

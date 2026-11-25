@@ -1,0 +1,50 @@
+
+Checking parameters for BSIM 4.5 model xamp.xpl2:pshort_model.4
+Warning: Eta0 = -0.00221468 is negative.
+
+Checking parameters for BSIM 4.5 model xamp.xpl1:pshort_model.4
+Warning: Eta0 = -0.00221468 is negative.
+Note: vstep: dc value used for op instead of transient time=0 value.
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+
+Note: No compatibility mode selected!
+
+
+Circuit: * unity-follower 100 mv step response with 2 pf load.
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        1.8
+ibn                                   0.466738
+ibp                                   0.974729
+ibp2                                  0.974729
+inp                                       0.65
+out                                   0.650182
+inn                                   0.650182
+xamp.tn                               0.207031
+xamp.tp                                 1.4013
+xamp.n1                               0.604985
+xamp.n1st                             0.582251
+xamp.p1                               0.535917
+xamp.z                                0.582251
+vfb#branch                        -5.55112e-17
+vstep#branch                                 0
+vdd#branch                        -0.000179114
+
+ Reference value :  0.00000e+00 Reference value :  1.29640e-07 Reference value :  2.81640e-07 Reference value :  4.50140e-07 Reference value :  6.10140e-07 Reference value :  7.68140e-07 Reference value :  9.40640e-07 Reference value :  1.03825e-06 Reference value :  1.20975e-06 Reference value :  1.39275e-06 Reference value :  1.55575e-06 Reference value :  1.73025e-06 Reference value :  1.89475e-06 Reference value :  2.09175e-06 Reference value :  2.27825e-06 Reference value :  2.48425e-06 Reference value :  2.66425e-06 Reference value :  2.84875e-06
+No. of Data Rows : 6020
+t10_up              =  1.006580e-06
+t90_up              =  1.028810e-06
+sr_up               =  3.670330e+06 at=  1.020250e-06
+t90_dn              =  2.017710e-06
+t10_dn              =  2.043146e-06
+sr_dn               =  -6.595517e+06 at=  2.023750e-06
+Note: Simulation executed from .control section 

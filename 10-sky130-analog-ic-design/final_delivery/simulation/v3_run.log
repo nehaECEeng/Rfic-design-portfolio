@@ -1,0 +1,148 @@
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+
+Note: No compatibility mode selected!
+
+
+Circuit: * candidate v1: dc/common-mode sweep and initial open-loop ac diagnostic.
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  0.00000e+00Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+
+No. of Data Rows : 1
+=== Vcm=0.45 ===
+v(inp) = 4.500000e-01
+v(out) = 4.505959e-01
+v(inn) = 4.505959e-01
+v(xamp.tn) = 8.396701e-03
+v(xamp.tp) = 1.164740e+00
+v(xamp.n1) = 7.620598e-01
+v(xamp.p1) = 5.169501e-01
+v(xamp.n1st) = 5.642819e-01
+intail = 2.391103e-06
+iptail = 1.987826e-05
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 271
+gain1hz             =  7.049718e+01
+ugb                 =  4.628058e+07
+phaseugb            =  -3.432826e+00
+pm = 1.765672e+02
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+=== Vcm=0.55 ===
+v(inp) = 5.500000e-01
+v(out) = 5.501523e-01
+v(inn) = 5.501523e-01
+v(xamp.tn) = 3.891148e-02
+v(xamp.tp) = 1.247906e+00
+v(xamp.n1) = 6.731449e-01
+v(xamp.p1) = 5.167901e-01
+v(xamp.n1st) = 5.631069e-01
+intail = 9.477657e-06
+iptail = 1.977284e-05
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 271
+gain1hz             =  7.264088e+01
+ugb                 =  5.315551e+07
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+phaseugb            =  -3.453455e+00
+pm = 1.765465e+02
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  0.00000e+00Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+
+No. of Data Rows : 1
+=== Vcm=0.65 ===
+v(inp) = 6.500000e-01
+v(out) = 6.501234e-01
+v(inn) = 6.501234e-01
+v(xamp.tn) = 9.819027e-02
+v(xamp.tp) = 1.330695e+00
+v(xamp.n1) = 6.276068e-01
+v(xamp.p1) = 5.163815e-01
+v(xamp.n1st) = 5.619709e-01
+intail = 1.666870e-05
+iptail = 1.963391e-05
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 271
+gain1hz             =  7.373504e+01
+ugb                 =  5.736061e+07
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+phaseugb            =  -3.522677e+00
+pm = 1.764773e+02
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  0.00000e+00Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+
+No. of Data Rows : 1
+=== Vcm=0.75 ===
+v(inp) = 7.500000e-01
+v(out) = 7.500999e-01
+v(inn) = 7.500999e-01
+v(xamp.tn) = 1.776131e-01
+v(xamp.tp) = 1.412706e+00
+v(xamp.n1) = 6.171933e-01
+v(xamp.p1) = 5.157147e-01
+v(xamp.n1st) = 5.608587e-01
+intail = 1.870936e-05
+iptail = 1.940786e-05
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 271
+gain1hz             =  7.387765e+01
+ugb                 =  5.818269e+07
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+phaseugb            =  -3.574269e+00
+pm = 1.764257e+02
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  0.00000e+00Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+
+No. of Data Rows : 1
+=== Vcm=0.85 ===
+v(inp) = 8.500000e-01
+v(out) = 8.500389e-01
+v(inn) = 8.500389e-01
+v(xamp.tn) = 2.617712e-01
+v(xamp.tp) = 1.493253e+00
+v(xamp.n1) = 6.148696e-01
+v(xamp.p1) = 5.142730e-01
+v(xamp.n1st) = 5.597597e-01
+intail = 1.918099e-05
+iptail = 1.891928e-05
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 271
+gain1hz             =  7.352772e+01
+ugb                 =  5.825558e+07
+phaseugb            =  -3.585825e+00
+pm = 1.764142e+02
+Note: Simulation executed from .control section 

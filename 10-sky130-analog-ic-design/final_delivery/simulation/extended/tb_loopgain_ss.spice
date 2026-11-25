@@ -1,0 +1,40 @@
+* DC operating points and series-injection loop-gain sweep, SKY130 tt.
+.lib "/home/nehan/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/combined/sky130.lib.spice" ss
+.include ../final/opamp_rri_final.spice
+Vdd vdd 0 1.8
+Ibn vdd ibn 20u
+Ibp ibp 0 20u
+Ibp2 ibp2 0 20u
+Vcm inp 0 dc 0.65 ac 0
+* 0 V dc / 1 V ac series injection at the unity-feedback return.
+Vprobe out inn dc 0 ac 1
+CL out 0 2p
+Xamp inp inn out vdd 0 ibn ibp ibp2 opamp_rri_final
+.control
+foreach v 0.45 0.55 0.65 0.75 0.85
+ alter Vcm dc = $v
+ op
+ echo === Vcm=$v V ===
+ print v(inp) v(inn) v(out) v(Xamp.tn) v(Xamp.tp) v(Xamp.n1st)
+ let Idd = -i(Vdd)
+ let Pwr = 1.8*Idd
+ print Idd Pwr
+ print @m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[id] @m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[id]
+ print @m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[id] @m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[id]
+ print @m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[id] @m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[id]
+ print @m.xamp.xpl1.msky130_fd_pr__pfet_01v8[id] @m.xamp.xpl2.msky130_fd_pr__pfet_01v8[id]
+ print @m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[id] @m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[id]
+ ac dec 40 1 1G
+ let LoopGain = -v(out)/v(inn)
+ meas ac A0_dB find vdb(LoopGain) at=1
+ meas ac UGB when vdb(LoopGain)=0 cross=1
+ let PhaseRawRad = vp(LoopGain)
+ let PhaseDegWrapped = (180/pi)*PhaseRawRad
+ let PhaseDegCont = unwrap(PhaseDegWrapped)
+ meas ac PhaseRadAtUGB find PhaseRawRad when vdb(LoopGain)=0 cross=1
+ meas ac PhaseDegAtUGB find PhaseDegCont when vdb(LoopGain)=0 cross=1
+ let PM_deg = 180 + PhaseDegAtUGB
+ print PM_deg
+end
+.endc
+.end

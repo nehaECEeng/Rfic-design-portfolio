@@ -1,0 +1,59 @@
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+
+Note: No compatibility mode selected!
+
+
+Circuit: * transient demand 0.30 v to 1.50 v and back, with input cm 0.53–0.77 v.
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  0.00000e+00
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+
+No. of Data Rows : 1
+v(inp) = 5.300000e-01
+v(inn) = 5.300295e-01
+v(out) = 3.001474e-01
+idd = 1.805735e-04
+pwr = 3.250322e-04
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        1.8
+ibn                                   0.447003
+ibp                                    1.05015
+ibp2                                   1.05015
+out                                   0.300147
+vref                                    0.5875
+inp                                       0.53
+inn                                   0.530029
+xamp.tn                               0.124934
+xamp.tp                                1.23138
+xamp.n1                                0.61903
+xamp.n1st                             0.568884
+xamp.p1                               0.516975
+xamp.z                                0.568884
+vdrive#branch                                0
+vref#branch                       -2.87353e-06
+vdd#branch                        -0.000180573
+
+ Reference value :  2.82280e-07
+ Reference value :  7.35280e-07
+ Reference value :  1.19850e-06
+ Reference value :  1.65050e-06
+ Reference value :  2.13450e-06
+ Reference value :  2.59950e-06
+ Reference value :  3.05750e-06
+ Reference value :  3.50750e-06
+ Reference value :  3.97150e-06
+No. of Data Rows : 4020
+Note: Simulation executed from .control section 

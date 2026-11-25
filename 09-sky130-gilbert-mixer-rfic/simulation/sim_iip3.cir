@@ -1,0 +1,62 @@
+* IIP3 two-tone: RF 2.45G + 2.46G, LO 2.4G -> IF 50M + 60M, IM3 at 40M and 70M
+.lib /home/nehan/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+
+XM3 outn g3 n1 0 sky130_fd_pr__nfet_01v8 L=0.15 W=10 nf=1 ad=2.9 as=2.9 pd=20.58 ps=20.58 nrd=0.029 nrs=0.029 mult=1 m=1
+XM4 outp g4 n1 0 sky130_fd_pr__nfet_01v8 L=0.15 W=10 nf=1 ad=2.9 as=2.9 pd=20.58 ps=20.58 nrd=0.029 nrs=0.029 mult=1 m=1
+XM5 outp g5 n2 0 sky130_fd_pr__nfet_01v8 L=0.15 W=10 nf=1 ad=2.9 as=2.9 pd=20.58 ps=20.58 nrd=0.029 nrs=0.029 mult=1 m=1
+XM6 outn g6 n2 0 sky130_fd_pr__nfet_01v8 L=0.15 W=10 nf=1 ad=2.9 as=2.9 pd=20.58 ps=20.58 nrd=0.029 nrs=0.029 mult=1 m=1
+Rload2 VDD outn 500
+Rload1 VDD outp 500
+XMP1 n1 nbp VDD VDD sky130_fd_pr__pfet_01v8 L=0.5 W=4 nf=1 ad=1.16 as=1.16 pd=8.58 ps=8.58 nrd=0.0725 nrs=0.0725 mult=8 m=8
+XMP2 n2 nbp VDD VDD sky130_fd_pr__pfet_01v8 L=0.5 W=4 nf=1 ad=1.16 as=1.16 pd=8.58 ps=8.58 nrd=0.0725 nrs=0.0725 mult=8 m=8
+XM1 n1 gg1 0 0 sky130_fd_pr__nfet_01v8 L=0.15 W=4 nf=1 ad=1.16 as=1.16 pd=8.58 ps=8.58 nrd=0.0725 nrs=0.0725 mult=10 m=10
+Rbg1 gg1 nb 10k
+Cc1 gg1 rfp 2p
+XM2 n2 gg2 0 0 sky130_fd_pr__nfet_01v8 L=0.15 W=4 nf=1 ad=1.16 as=1.16 pd=8.58 ps=8.58 nrd=0.0725 nrs=0.0725 mult=10 m=10
+Rbg2 gg2 nb 10k
+Cc2 gg2 rfn 2p
+Rlo3 vlocm g3 10k
+Clo3 lo_p g3 2p
+Rlo4 vlocm g4 10k
+Clo4 lo_n g4 2p
+Rlo5 vlocm g5 10k
+Clo5 lo_p g5 2p
+Rlo6 vlocm g6 10k
+Clo6 lo_n g6 2p
+Iref VDD nb 250u
+XMb nb nb 0 0 sky130_fd_pr__nfet_01v8 L=0.15 W=4 nf=1 ad=1.16 as=1.16 pd=8.58 ps=8.58 nrd=0.0725 nrs=0.0725 mult=1 m=1
+XMPb nbp nbp VDD VDD sky130_fd_pr__pfet_01v8 L=0.5 W=4 nf=1 ad=1.16 as=1.16 pd=8.58 ps=8.58 nrd=0.0725 nrs=0.0725 mult=1 m=1
+Ibp nbp 0 125u
+Vdd VDD 0 1.8
+Vlocm vlocm 0 1.4
+Cl1 outp 0 2p
+Cl2 outn 0 2p
+Rext outp outn 20k
+.param amp=10m
+Vrf1p rfp m1p sin(0 {amp} 2.45G)
+Vrf2p m1p 0 sin(0 {amp} 2.46G)
+Vrf1n rfn m1n sin(0 {amp} 2.45G 0 0 180)
+Vrf2n m1n 0 sin(0 {amp} 2.46G 0 0 180)
+Vlop lo_p 0 sin(0 0.4 2.4G)
+Vlon lo_n 0 sin(0 -0.4 2.4G)
+
+.control
+shell rm -f iip3_new.txt
+echo amp_per_side_V f_Hz output_diff_peak_V
+foreach av 0.001 0.002 0.004 0.008 0.012 0.016 0.024 0.032
+  alterparam amp = $av
+  reset
+  tran 10p 500n 100n 10p
+  let vd = v(outp)-v(outn)
+  linearize vd
+  foreach fv 4e7 5e7 6e7 7e7
+    let fn = $fv
+    let a = 2*mean(vd*cos(2*pi*fn*time))
+    let b = 2*mean(vd*sin(2*pi*fn*time))
+    let m = sqrt(a*a+b*b)
+    echo $av $fv $&m
+    echo $av $fv $&m >> iip3_new.txt
+  end
+end
+.endc
+.end

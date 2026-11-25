@@ -1,0 +1,24 @@
+* Unity-follower 100 mV step response with 2 pF load.
+.lib "/home/nehan/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/combined/sky130.lib.spice" tt
+.include ../candidates/rri_tail_headroom_v6.spice
+Vdd vdd 0 1.8
+Ibn vdd ibn 20u
+Ibp ibp 0 20u
+Ibp2 ibp2 0 20u
+Vstep inp 0 dc 0 pulse(0.65 0.75 1u 10n 10n 1u 2u)
+Vfb out inn 0
+CL out 0 2p
+Xamp inp inn out vdd 0 ibn ibp ibp2 opamp_rri_final
+.control
+tran 0.5n 3u
+let Slew = deriv(v(out))
+meas tran T10_up when v(out)=0.66 rise=1
+meas tran T90_up when v(out)=0.74 rise=1
+meas tran SR_up max Slew from=1.02u to=1.5u
+meas tran T90_dn when v(out)=0.74 fall=1
+meas tran T10_dn when v(out)=0.66 fall=1
+meas tran SR_dn min Slew from=2.02u to=2.5u
+set wr_singlescale
+wrdata ../results/v6_transient_step.dat v(inp) v(out)
+.endc
+.end

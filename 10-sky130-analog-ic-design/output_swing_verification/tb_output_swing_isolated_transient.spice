@@ -1,0 +1,25 @@
+* Transient demand 0.30 V to 1.50 V and back, with input CM 0.53–0.77 V.
+.lib "/home/nehan/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/combined/sky130.lib.spice" tt
+.include ../final_delivery/final/opamp_rri_final.spice
+Vdd vdd 0 1.8
+Ibn vdd ibn 20u
+Ibp ibp 0 20u
+Ibp2 ibp2 0 20u
+CL out 0 2p
+Vref vref 0 0.5875
+Vdrive inp 0 PULSE(0.53 0.77 1u 10n 10n 1.5u 3u)
+Rfb out inn 80k
+Rref inn vref 20k
+Xamp inp inn out vdd 0 ibn ibp ibp2 opamp_rri_final
+.control
+op
+print v(inp) v(inn) v(out)
+let Idd = -i(Vdd)
+let Pwr = 1.8*Idd
+print Idd Pwr
+tran 1n 4u
+let VoutDemand = 5*v(inp)-2.35
+set wr_singlescale
+wrdata output_swing_transient.dat v(inp) v(inn) v(out) VoutDemand
+.endc
+.end

@@ -1,0 +1,20 @@
+* Noise setup audit: reproduce original SKY130 TT unity follower.
+.lib "/home/nehan/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/combined/sky130.lib.spice" tt
+.include ../final_delivery/final/opamp_rri_final.spice
+Vdd vdd 0 1.8
+Ibn vdd ibn 20u
+Ibp ibp 0 20u
+Ibp2 ibp2 0 20u
+Vsig inp 0 dc 0.65 ac 1
+Vfb out inn 0
+CL out 0 2p
+Xamp inp inn out vdd 0 ibn ibp ibp2 opamp_rri_final
+.control
+op
+noise v(out) Vsig dec 200 1 1G
+print onoise_total inoise_total
+setplot noise1
+set wr_singlescale
+wrdata noise_debug_spectrum.dat onoise_spectrum inoise_spectrum
+.endc
+.end

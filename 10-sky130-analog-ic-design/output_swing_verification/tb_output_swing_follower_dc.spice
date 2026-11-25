@@ -1,0 +1,23 @@
+* Unity follower; output demand also sweeps input common mode.
+.lib "/home/nehan/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/combined/sky130.lib.spice" tt
+.include ../final_delivery/final/opamp_rri_final.spice
+Vdd vdd 0 1.8
+Ibn vdd ibn 20u
+Ibp ibp 0 20u
+Ibp2 ibp2 0 20u
+CL out 0 2p
+Vdrive inp 0 dc 0.30
+Vfb out inn 0
+Xamp inp inn out vdd 0 ibn ibp ibp2 opamp_rri_final
+.control
+foreach v 0.30 0.40 0.50 0.70 0.90 1.10 1.30 1.40 1.50
+ alter Vdrive dc = $v
+ op
+ echo === FOLLOWER Vin=$v V ===
+ print v(inp) v(inn) v(out)
+ let Idd = -i(Vdd)
+ let Pwr = 1.8*Idd
+ print Idd Pwr
+end
+.endc
+.end

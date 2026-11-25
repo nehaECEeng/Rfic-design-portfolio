@@ -1,0 +1,52 @@
+* SKY130A TT ICMR characterization, 1.8 V, CL=2 pF.
+* Run from this folder so the include path resolves.
+.lib "/home/nehan/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/combined/sky130.lib.spice" tt
+.include ../final_delivery/final/opamp_rri_final.spice
+Vdd vdd 0 1.8
+Ibn vdd ibn 20u
+Ibp ibp 0 20u
+Ibp2 ibp2 0 20u
+Vcm inp 0 dc 0.50 ac 0
+* DC-short / AC-open-loop injection at the unity feedback return.
+Vprobe out inn dc 0 ac 1
+CL out 0 2p
+Xamp inp inn out vdd 0 ibn ibp ibp2 opamp_rri_final
+.control
+set noaskquit
+foreach v 0.50 0.55 0.60 0.65 0.70 0.75 0.80 0.85 0.90 0.95 1.00 1.05 1.10 1.15 1.20 1.25 1.30
+ alter Vcm dc = $v
+ op
+ echo === ICMR Vcm=$v V ===
+ print v(inp) v(inn) v(out) v(Xamp.tn) v(Xamp.tp) v(Xamp.n1st) v(Xamp.p1)
+ let Idd = -i(Vdd)
+ let Pwr = 1.8*Idd
+ print Idd Pwr
+ print @m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[id] @m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vgs] @m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vth] @m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vds] @m.xamp.xbn.msky130_fd_pr__nfet_01v8_lvt[vdsat]
+ print @m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[id] @m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vgs] @m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vth] @m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vds] @m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[vdsat]
+ print @m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[id] @m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vgs] @m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vth] @m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vds] @m.xamp.xbp.msky130_fd_pr__pfet_01v8_lvt[vdsat]
+ print @m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[id] @m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vgs] @m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vth] @m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vds] @m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[vdsat]
+ print @m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[id] @m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vgs] @m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vth] @m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vds] @m.xamp.xbp2.msky130_fd_pr__pfet_01v8_lvt[vdsat]
+ print @m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[id] @m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vgs] @m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vth] @m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vds] @m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[vdsat]
+ print @m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[id] @m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vgs] @m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vth] @m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vds] @m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[vdsat]
+ print @m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[id] @m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vgs] @m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vth] @m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vds] @m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[vdsat]
+ print @m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[id] @m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vgs] @m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vth] @m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vds] @m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[vdsat]
+ print @m.xamp.xpl1.msky130_fd_pr__pfet_01v8[id] @m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vgs] @m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vth] @m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vds] @m.xamp.xpl1.msky130_fd_pr__pfet_01v8[vdsat]
+ print @m.xamp.xpl2.msky130_fd_pr__pfet_01v8[id] @m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vgs] @m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vth] @m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vds] @m.xamp.xpl2.msky130_fd_pr__pfet_01v8[vdsat]
+ print @m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[id] @m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vgs] @m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vth] @m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vds] @m.xamp.xnl1.msky130_fd_pr__nfet_01v8_lvt[vdsat]
+ print @m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[id] @m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vgs] @m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vth] @m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vds] @m.xamp.xnl2.msky130_fd_pr__nfet_01v8_lvt[vdsat]
+ print @m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[id] @m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vgs] @m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vth] @m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vds] @m.xamp.xm6.msky130_fd_pr__nfet_01v8_lvt[vdsat]
+ print @m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[id] @m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vgs] @m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vth] @m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vds] @m.xamp.xm7.msky130_fd_pr__pfet_01v8_lvt[vdsat]
+ ac dec 40 1 1G
+ let LoopGain = -v(out)/v(inn)
+ meas ac A0_dB find vdb(LoopGain) at=1
+ meas ac UGB when vdb(LoopGain)=0 cross=1
+ let PhaseRawRad = vp(LoopGain)
+ let PhaseDegWrapped = (180/pi)*PhaseRawRad
+ let PhaseDegCont = unwrap(PhaseDegWrapped)
+ meas ac PhaseRadAtUGB find PhaseRawRad when vdb(LoopGain)=0 cross=1
+ meas ac PhaseDegAtUGB find PhaseDegCont when vdb(LoopGain)=0 cross=1
+ let PM_deg = 180 + PhaseDegAtUGB
+ print PM_deg
+end
+.endc
+.end

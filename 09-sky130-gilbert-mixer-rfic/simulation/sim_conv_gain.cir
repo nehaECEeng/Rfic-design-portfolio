@@ -1,0 +1,56 @@
+* conversion gain: RF 2.45G, LO 2.4G, IF 50M
+.lib /home/nehan/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+
+XM3 outn g3 n1 0 sky130_fd_pr__nfet_01v8 L=0.15 W=10 nf=1 mult=1 m=1
+XM4 outp g4 n1 0 sky130_fd_pr__nfet_01v8 L=0.15 W=10 nf=1 mult=1 m=1
+XM5 outp g5 n2 0 sky130_fd_pr__nfet_01v8 L=0.15 W=10 nf=1 mult=1 m=1
+XM6 outn g6 n2 0 sky130_fd_pr__nfet_01v8 L=0.15 W=10 nf=1 mult=1 m=1
+Rload2 VDD outn 500
+Rload1 VDD outp 500
+XMP1 n1 nbp VDD VDD sky130_fd_pr__pfet_01v8 L=0.5 W=4 nf=1 mult=8 m=8
+XMP2 n2 nbp VDD VDD sky130_fd_pr__pfet_01v8 L=0.5 W=4 nf=1 mult=8 m=8
+XM1 n1 gg1 0 0 sky130_fd_pr__nfet_01v8 L=0.15 W=4 nf=1 mult=10 m=10
+Rbg1 gg1 nb 10k
+Cc1 gg1 rfp 2p
+XM2 n2 gg2 0 0 sky130_fd_pr__nfet_01v8 L=0.15 W=4 nf=1 mult=10 m=10
+Rbg2 gg2 nb 10k
+Cc2 gg2 rfn 2p
+Rlo3 vlocm g3 10k
+Clo3 lo_p g3 2p
+Rlo4 vlocm g4 10k
+Clo4 lo_n g4 2p
+Rlo5 vlocm g5 10k
+Clo5 lo_p g5 2p
+Rlo6 vlocm g6 10k
+Clo6 lo_n g6 2p
+Iref VDD nb 250u
+XMb nb nb 0 0 sky130_fd_pr__nfet_01v8 L=0.15 W=4 nf=1 mult=1 m=1
+XMPb nbp nbp VDD VDD sky130_fd_pr__pfet_01v8 L=0.5 W=4 nf=1 mult=1 m=1
+Ibp nbp 0 125u
+Vdd VDD 0 1.8
+Vlocm vlocm 0 1.4
+Cl1 outp 0 2p
+Cl2 outn 0 2p
+Rext outp outn 20k
+Vrfp rfp 0 sin(0 5m 2.45G)
+Vrfn rfn 0 sin(0 -5m 2.45G)
+Vlop lo_p 0 sin(0 0.4 2.4G)
+Vlon lo_n 0 sin(0 -0.4 2.4G)
+
+.control
+tran 5p 600n 0 5p
+let vd = v(outp)-v(outn)
+* 1) time waveform of the differential output (last 100 ns)
+plot vd xlimit 500n 600n title 'Differential output vd = v(outp)-v(outn)'
+* 2) save raw data in case no plot window opens (columns: time, vd)
+wrdata vd_time.txt vd
+* 3) numbers: Fourier table at the IF (50 MHz)
+fourier 50Meg vd
+* RF diff amplitude = 10 mV, so CG(dB) = 20*log10(fundamental_magnitude / 0.01)
+* 4) spectrum: the tall peak near 50 MHz is the IF
+linearize vd
+set specwindow=hanning
+fft vd
+plot mag(vd) xlimit 0 300meg title 'IF spectrum (peak at 50 MHz)'
+.endc
+.end

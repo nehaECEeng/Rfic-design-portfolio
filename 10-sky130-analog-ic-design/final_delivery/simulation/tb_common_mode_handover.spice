@@ -1,0 +1,23 @@
+* Point-by-point common-mode handover characterization, SKY130 TT.
+.lib "/home/nehan/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/combined/sky130.lib.spice" tt
+.include ../final/opamp_rri_final.spice
+Vdd vdd 0 1.8
+Ibn vdd ibn 20u
+Ibp ibp 0 20u
+Ibp2 ibp2 0 20u
+Vcm inp 0 dc 0.45
+Vfb out inn 0
+CL out 0 2p
+Xamp inp inn out vdd 0 ibn ibp ibp2 opamp_rri_final
+.control
+foreach v 0.45 0.46 0.47 0.48 0.49 0.50 0.51 0.52 0.53 0.54 0.55 0.56 0.57 0.58 0.59 0.60 0.61 0.62 0.63 0.64 0.65 0.66 0.67 0.68 0.69 0.70 0.71 0.72 0.73 0.74 0.75 0.76 0.77 0.78 0.79 0.80 0.81 0.82 0.83 0.84 0.85
+ alter Vcm dc = $v
+ op
+ echo === HANDOVER Vcm=$v ===
+ print v(inp) v(out)
+ print @m.xamp.xntail.msky130_fd_pr__nfet_01v8_lvt[id] @m.xamp.xptail.msky130_fd_pr__pfet_01v8_lvt[id]
+ print @m.xamp.xmn1.msky130_fd_pr__nfet_01v8_lvt[id] @m.xamp.xmp1.msky130_fd_pr__pfet_01v8_lvt[id]
+ print @m.xamp.xmn2.msky130_fd_pr__nfet_01v8_lvt[id] @m.xamp.xmp2.msky130_fd_pr__pfet_01v8_lvt[id]
+end
+.endc
+.end

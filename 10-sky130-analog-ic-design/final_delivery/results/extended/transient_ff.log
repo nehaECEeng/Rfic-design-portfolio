@@ -1,0 +1,44 @@
+Note: vstep: dc value used for op instead of transient time=0 value.
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+
+Note: No compatibility mode selected!
+
+
+Circuit: * unity-follower 100 mv step response with 2 pf load.
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        1.8
+ibn                                   0.427297
+ibp                                    1.12378
+ibp2                                   1.12378
+inp                                       0.65
+out                                   0.649565
+inn                                   0.649565
+xamp.tn                               0.242111
+xamp.tp                                1.26037
+xamp.n1                               0.626295
+xamp.n1st                             0.541909
+xamp.p1                               0.496989
+xamp.z                                0.541909
+vfb#branch                         5.55112e-17
+vstep#branch                                 0
+vdd#branch                        -0.000180671
+
+ Reference value :  0.00000e+00 Reference value :  8.66400e-08 Reference value :  2.29640e-07 Reference value :  3.65640e-07 Reference value :  5.03140e-07 Reference value :  6.71140e-07 Reference value :  8.40640e-07 Reference value :  1.01275e-06 Reference value :  1.17825e-06 Reference value :  1.34425e-06 Reference value :  1.51325e-06 Reference value :  1.66625e-06 Reference value :  1.83125e-06 Reference value :  1.99775e-06 Reference value :  2.16325e-06 Reference value :  2.34125e-06 Reference value :  2.48725e-06 Reference value :  2.65925e-06 Reference value :  2.82075e-06 Reference value :  2.97925e-06
+No. of Data Rows : 6020
+t10_up              =  1.006751e-06
+t90_up              =  1.029034e-06
+sr_up               =  3.715571e+06 at=  1.020250e-06
+t90_dn              =  2.017415e-06
+t10_dn              =  2.042158e-06
+sr_dn               =  -6.857124e+06 at=  2.023250e-06
+Note: Simulation executed from .control section 

@@ -1,0 +1,162 @@
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+
+Note: No compatibility mode selected!
+
+
+Circuit: * candidate v1: dc/common-mode sweep and initial open-loop ac diagnostic.
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  0.00000e+00Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+
+No. of Data Rows : 1
+=== Vcm=0.45 ===
+v(inp) = 4.500000e-01
+v(out) = 8.053558e-01
+v(inn) = 8.053558e-01
+v(xamp.tn) = 1.872841e-01
+v(xamp.tp) = 1.506745e+00
+v(xamp.n1) = 5.435428e-01
+v(xamp.n2) = 1.872822e-01
+v(xamp.p1) = 5.572245e-01
+v(xamp.p2) = 1.506745e+00
+v(xamp.n1st) = 5.602500e-01
+intail = 1.879015e-05
+iptail = 1.878017e-05
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 271
+gain1hz             =  -8.827862e+01
+ugb                 =  2.651163e+04
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+phaseugb            =  1.357312e+00
+pm = 1.813573e+02
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+=== Vcm=0.55 ===
+v(inp) = 5.500000e-01
+v(out) = 8.053558e-01
+v(inn) = 8.053558e-01
+v(xamp.tn) = 1.872841e-01
+v(xamp.tp) = 1.506745e+00
+v(xamp.n1) = 5.435428e-01
+v(xamp.n2) = 1.872840e-01
+v(xamp.p1) = 5.572245e-01
+v(xamp.p2) = 1.506745e+00
+v(xamp.n1st) = 5.602500e-01
+intail = 1.879015e-05
+iptail = 1.878017e-05
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  1.00000e+00
+No. of Data Rows : 271
+gain1hz             =  -8.794390e+01
+ugb                 =  2.546325e+04
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+phaseugb            =  1.365171e+00
+pm = 1.813652e+02
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+=== Vcm=0.65 ===
+v(inp) = 6.500000e-01
+v(out) = 8.053558e-01
+v(inn) = 8.053558e-01
+v(xamp.tn) = 1.872841e-01
+v(xamp.tp) = 1.506745e+00
+v(xamp.n1) = 5.435428e-01
+v(xamp.n2) = 1.872841e-01
+v(xamp.p1) = 5.572245e-01
+v(xamp.p2) = 1.506745e+00
+v(xamp.n1st) = 5.602500e-01
+intail = 1.879015e-05
+iptail = 1.878017e-05
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  7.94328e+00
+No. of Data Rows : 271
+gain1hz             =  -8.794388e+01
+ugb                 =  2.546318e+04
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+phaseugb            =  1.365196e+00
+pm = 1.813652e+02
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+=== Vcm=0.75 ===
+v(inp) = 7.500000e-01
+v(out) = 8.053558e-01
+v(inn) = 8.053558e-01
+v(xamp.tn) = 1.872841e-01
+v(xamp.tp) = 1.506745e+00
+v(xamp.n1) = 5.435428e-01
+v(xamp.n2) = 1.872841e-01
+v(xamp.p1) = 5.572245e-01
+v(xamp.p2) = 1.506745e+00
+v(xamp.n1st) = 5.602500e-01
+intail = 1.879015e-05
+iptail = 1.878017e-05
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 271
+gain1hz             =  -8.876237e+01
+ugb                 =  2.810570e+04
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+phaseugb            =  1.344488e+00
+pm = 1.813445e+02
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  0.00000e+00Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+
+No. of Data Rows : 1
+=== Vcm=0.85 ===
+v(inp) = 8.500000e-01
+v(out) = 8.053558e-01
+v(inn) = 8.053558e-01
+v(xamp.tn) = 1.872841e-01
+v(xamp.tp) = 1.506745e+00
+v(xamp.n1) = 5.435428e-01
+v(xamp.n2) = 1.872841e-01
+v(xamp.p1) = 5.572245e-01
+v(xamp.p2) = 1.506745e+00
+v(xamp.n1st) = 5.602500e-01
+intail = 1.879015e-05
+iptail = 1.878017e-05
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 271
+gain1hz             =  -9.064313e+01
+ugb                 =  3.537193e+04
+phaseugb            =  1.288437e+00
+pm = 1.812884e+02
+Note: Simulation executed from .control section 

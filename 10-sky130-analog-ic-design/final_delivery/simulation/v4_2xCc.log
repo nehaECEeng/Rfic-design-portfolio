@@ -1,0 +1,157 @@
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+
+Note: No compatibility mode selected!
+
+
+Circuit: * candidate v3 loop gain by series voltage injection at the unity-feedback break.
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  0.00000e+00Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+
+No. of Data Rows : 1
+=== Vcm=0.45 ===
+v(out) = 4.505959e-01
+v(inn) = 4.505959e-01
+v(xamp.n1st) = 5.642819e-01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 361
+a0_db               =  7.055750e+01
+g_1k                =  7.055738e+01
+g_1meg              =  5.553050e+01
+g_10meg             =  2.637984e+01
+ugb                 =  4.193599e+07
+phaserawrad         =  2.779131e+00
+p_1hz               =  -3.236279e-04
+p_1k                =  -3.234635e-01
+p_1meg              =  -9.542204e+01
+p_10meg             =  -1.690721e+02
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+phaseatugb          =  -1.989091e+02
+pm = -1.89091e+01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  0.00000e+00Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+
+No. of Data Rows : 1
+=== Vcm=0.55 ===
+v(out) = 5.501523e-01
+v(inn) = 5.501523e-01
+v(xamp.n1st) = 5.631069e-01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  1.00000e+00
+No. of Data Rows : 361
+a0_db               =  7.265150e+01
+g_1k                =  7.265141e+01
+g_1meg              =  5.875967e+01
+g_10meg             =  2.991891e+01
+ugb                 =  4.918156e+07
+phaserawrad         =  2.599627e+00
+p_1hz               =  -2.843926e-04
+p_1k                =  -2.842203e-01
+p_1meg              =  -9.392039e+01
+p_10meg             =  -1.684414e+02
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+phaseatugb          =  -2.091939e+02
+pm = -2.91939e+01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  0.00000e+00Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+
+No. of Data Rows : 1
+=== Vcm=0.65 ===
+v(out) = 6.501234e-01
+v(inn) = 6.501234e-01
+v(xamp.n1st) = 5.619709e-01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  1.00000e+00
+No. of Data Rows : 361
+a0_db               =  7.373294e+01
+g_1k                =  7.373286e+01
+g_1meg              =  6.063717e+01
+g_10meg             =  3.191433e+01
+ugb                 =  5.629098e+07
+phaserawrad         =  2.605150e+00
+p_1hz               =  -2.595882e-04
+p_1k                =  -2.594113e-01
+p_1meg              =  -9.255598e+01
+p_10meg             =  -1.661260e+02
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+phaseatugb          =  -2.088775e+02
+pm = -2.88775e+01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  0.00000e+00Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+
+No. of Data Rows : 1
+=== Vcm=0.75 ===
+v(out) = 7.500999e-01
+v(inn) = 7.500999e-01
+v(xamp.n1st) = 5.608587e-01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  1.00000e+00
+No. of Data Rows : 361
+a0_db               =  7.387976e+01
+g_1k                =  7.387969e+01
+g_1meg              =  6.106197e+01
+g_10meg             =  3.231333e+01
+ugb                 =  5.784165e+07
+phaserawrad         =  2.644466e+00
+p_1hz               =  -2.514221e-04
+p_1k                =  -2.512420e-01
+p_1meg              =  -9.215203e+01
+p_10meg             =  -1.655539e+02
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+phaseatugb          =  -2.066248e+02
+pm = -2.66248e+01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  0.00000e+00Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+
+No. of Data Rows : 1
+=== Vcm=0.85 ===
+v(out) = 8.500389e-01
+v(inn) = 8.500389e-01
+v(xamp.n1st) = 5.597597e-01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 361
+a0_db               =  7.353310e+01
+g_1k                =  7.353303e+01
+g_1meg              =  6.104230e+01
+g_10meg             =  3.230452e+01
+ugb                 =  5.763248e+07
+phaserawrad         =  2.651864e+00
+p_1hz               =  -2.422120e-04
+p_1k                =  -2.420302e-01
+p_1meg              =  -9.162827e+01
+p_10meg             =  -1.655104e+02
+phaseatugb          =  -2.062010e+02
+pm = -2.62010e+01
+Note: Simulation executed from .control section 

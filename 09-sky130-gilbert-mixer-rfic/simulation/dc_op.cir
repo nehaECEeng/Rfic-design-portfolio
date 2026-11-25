@@ -1,0 +1,43 @@
+* DC operating point check - Gilbert mixer (SKY130)
+* EDIT the path below, then:  ngspice -b dc_op.cir
+.lib "/path/to/sky130A/libs.tech/ngspice/sky130.lib.spice" tt
+.include gilbert_mixer.sp
+
+Vdd  vdd 0 1.8
+* RF and LO inputs held at 0 V DC (AC-coupled inside the subckt)
+Vrp  rfp 0 0
+Vrn  rfn 0 0
+Vlp  lop 0 0
+Vln  lon 0 0
+Xdut rfp rfn lop lon outp outn vdd 0 gilbert
+
+.save all
+.save @m.xdut.xm1.msky130_fd_pr__nfet_01v8[id]
+.save @m.xdut.xm1.msky130_fd_pr__nfet_01v8[vth]
+.save @m.xdut.xm1.msky130_fd_pr__nfet_01v8[vdsat]
+.save @m.xdut.xm1.msky130_fd_pr__nfet_01v8[gm]
+.save @m.xdut.xm3.msky130_fd_pr__nfet_01v8[id]
+.save @m.xdut.xm3.msky130_fd_pr__nfet_01v8[vth]
+.save @m.xdut.xm3.msky130_fd_pr__nfet_01v8[vdsat]
+.save @m.xdut.xmp1.msky130_fd_pr__pfet_01v8[id]
+.save @m.xdut.xmp1.msky130_fd_pr__pfet_01v8[vdsat]
+
+.control
+op
+echo ===== NODE VOLTAGES =====
+print v(xdut.nb) v(xdut.nbp) v(xdut.gp) v(xdut.n1) v(xdut.n2) v(outp) v(outn) v(xdut.lpg)
+echo ===== SUPPLY (expect ~4.375 mA) =====
+print -i(Vdd)
+echo ===== LOAD CURRENT (expect ~1 mA each) =====
+let il1 = (1.8 - v(outp))/700
+let il2 = (1.8 - v(outn))/700
+print il1 il2
+echo ===== gm device M1 (expect id~2mA, vds = v(n1) > vdsat) =====
+print @m.xdut.xm1.msky130_fd_pr__nfet_01v8[id] @m.xdut.xm1.msky130_fd_pr__nfet_01v8[vth] @m.xdut.xm1.msky130_fd_pr__nfet_01v8[vdsat] @m.xdut.xm1.msky130_fd_pr__nfet_01v8[gm]
+echo ===== switch M3 (expect id~0.5mA) =====
+print @m.xdut.xm3.msky130_fd_pr__nfet_01v8[id] @m.xdut.xm3.msky130_fd_pr__nfet_01v8[vth] @m.xdut.xm3.msky130_fd_pr__nfet_01v8[vdsat]
+echo ===== bleed PMOS (expect id~1mA, vsd = 1.8 - v(n1) > vdsat) =====
+print @m.xdut.xmp1.msky130_fd_pr__pfet_01v8[id] @m.xdut.xmp1.msky130_fd_pr__pfet_01v8[vdsat]
+quit
+.endc
+.end

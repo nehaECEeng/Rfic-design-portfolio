@@ -1,0 +1,4 @@
+Measured quasi-static output noise: 20.35 nV/sqrt(Hz), differential, 50 MHz.
+Measured transient small-signal conversion gain: 8.8303 dB, differential, 50 MHz.
+Noise figure using the measured transient gain and 100 ohm differential source resistance: SSB 15.15 dB; DSB 12.14 dB.
+The 20 pF nbp bypass run gave the same reported noise and gain as the no-bypass run at the recorded precision.
